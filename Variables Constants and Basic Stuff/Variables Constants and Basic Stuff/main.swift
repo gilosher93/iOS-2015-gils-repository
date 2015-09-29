@@ -83,7 +83,7 @@ func power(x:Int, y:Int)->Int{
         return 1;
     }
     var result = x;
-    for i in 1..<y{
+    for _ in 1..<y{
         result = product(x, y: result);
     }
     return result;
@@ -263,5 +263,48 @@ func printX(var size:Int)->Void{
 print("print X:");
 printX(6);
 
+//rectangle
+func printRectangle(xPos:Int, yPos:Int, width:Int,height:Int)->Void{
+    if width == 0 || height == 0{
+        print("width nor height can't be 0. please try again")
+        return;
+    }
+    let space:Character = " ";
+    let star:Character = "*";
+    var xSpace:String = "";
+    var rowPrint:String = "";
+    for _ in 0..<yPos{
+        print("");
+    }
+    for _ in 0..<xPos{
+        xSpace.append(space);
+    }
+    
+    rowPrint.appendContentsOf(xSpace);
+    for _ in 0...width{
+        rowPrint.append(star);
+    }
+    print(rowPrint);
+    for var i=0; i<height-1; ++i{
+        rowPrint = "";
+        rowPrint.appendContentsOf(xSpace);
+        rowPrint.append(star);
+        if width>1{
+            for _ in 0..<width-1{
+                rowPrint.append(space);
+            }
+        }
+        rowPrint.append(star);
+        print(rowPrint);
+    }
+    rowPrint = "";
+    rowPrint.appendContentsOf(xSpace);
+    for _ in 0...width{
+        rowPrint.append(star);
+    }
+    print(rowPrint);
+    
+}
 
-
+printRectangle(0,yPos:0,width:5, height: 2);
+ 
