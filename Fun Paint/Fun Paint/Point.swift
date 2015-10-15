@@ -16,7 +16,9 @@ class Point {
             return _xPos;
         }
         set{
-            _xPos = newValue;
+            if newValue >= 0{
+                _xPos = newValue;
+            }
         }
     }
     var yPos:Int{
@@ -29,19 +31,51 @@ class Point {
     }
     
     func distanceFromOrigin()->Double{
-        return sqrt(Double(_xPos*_xPos) + Double(_yPos*_yPos));
+        return distanceFromPoint(0, y:0);
     }
     
     func angelOfXaxis()->Double{
-        return (atan(Double(xPos)/Double(yPos))*180)/M_PI;
+        if _xPos == 0 {
+            if _yPos != 0 {
+                return 90;
+            }
+            return -1;
+        }
+        if _yPos == 0{
+            return 0;
+        }
+        return (atan2(Double(_yPos), Double(_xPos))*180)/M_PI;
     }
-    func distanceFromPoint(p1:Point)->Double{
-        let deltaX = Double(p1._xPos) - Double(_xPos);
-        let deltaY = Double(p1._yPos) - Double(_yPos);
+    
+    func distanceFromPoint(x: Int, y: Int)->Double{
+        let deltaX = Double(x-self._xPos);
+        let deltaY = Double(y-self._yPos);
         return sqrt(deltaX*deltaX + deltaY*deltaY);
     }
+    
+    func distanceFromPoint(otherPoint: Point)->Double{
+        return distanceFromPoint(otherPoint._xPos, y: otherPoint._yPos);
+    }
+    
     func desctiption()->String{
         return "(" + "\(_xPos)" + "," + "\(_yPos)" + ")";
+    }
+    
+    func compare(otherPoint:Point)->Int{
+        let distanceFromOriginDifference = self.distanceFromOrigin() - otherPoint.distanceFromOrigin();
+        if(distanceFromOriginDifference > 0 ){
+            return 1;
+        }else if(distanceFromOriginDifference < 0){
+            return -1;
+        }else{
+            let angelDifference = self.angelOfXaxis()-otherPoint.angelOfXaxis();
+            if(angelDifference > 0){
+                return 1;
+            }else if(angelDifference < 0){
+                return -1;
+            }
+        }
+        return 0;
     }
 }
 
