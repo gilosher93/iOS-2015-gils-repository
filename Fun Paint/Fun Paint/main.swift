@@ -65,3 +65,5 @@ sortArray(&arrayOfPoints) { (p1: AnyObject, p2: AnyObject) -> Bool in
     let point2 = p2 as! Point;
     return point1.compare(point2) > 0;
 }
+var p11:Point = Point(x: 4, y: 9);
+print(p11.desctiption())

@@ -26,7 +26,18 @@ class Sagment {
             return _p2;
         }
     }
-    
+    init(x1: Int, y1:Int, x2: Int, y2:Int){
+        p1?._xPos = x1;
+        p1?._yPos = y1;
+        p2?._xPos = x2;
+        p2?._yPos = y2;
+    }
+    convenience init(p1: Point, p2: Point){
+        self.init(x1: p1._xPos, y1: p1._yPos, x2: p2._xPos, y2: p2._yPos);
+    }
+    convenience init(){
+        self.init(x1: 0, y1: 0, x2: 1, y2: 1);
+    }
     var length:Double{
         get{
             if let thePoint1 = _p1{

@@ -19,7 +19,7 @@ class Person {
     var age:Int = 0;
     
     func description()->String{
-        return "I'm " + name + " and I'm " + String(age) + " " + (age == 1 ? "year" : "years") + " old."
+        return "My Name Is " + name + " And I'm " + String(age) + " " + (age == 1 ? " Year" : " Years") + " old."
     }
     
     private var roles = ["Manager", "Parent", "Runner"];

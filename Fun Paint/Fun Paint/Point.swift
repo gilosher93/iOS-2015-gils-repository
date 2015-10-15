@@ -9,8 +9,8 @@
 import Foundation
 
 class Point {
-    var _xPos:Int = 3;
-    var _yPos:Int = 4;
+    var _xPos:Int;
+    var _yPos:Int;
     var xPos:Int{
         get{
             return _xPos;
@@ -28,6 +28,16 @@ class Point {
         set{
             _yPos = newValue;
         }
+    }
+    init(x: Int, y: Int){
+        _xPos = x;
+        _yPos = y;
+    }
+    convenience init(p: Point){
+        self.init(x: p.xPos, y: p.yPos);
+    }
+    convenience init(){
+        self.init(x: 0, y: 0);
     }
     
     func distanceFromOrigin()->Double{
