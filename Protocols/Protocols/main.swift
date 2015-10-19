@@ -8,27 +8,25 @@
 
 import Foundation
 
-protocol PrinterProtocol{
-    func printThis();
-    func printThat();
-}
-
-class aClass : aSuperClass, PrinterProtocol {
-    func printThis() {
-        print("this");
-    }
-    func printThat() {
-        print("that");
-    }
-}
-
 class aSuperClass {
     
 }
 
 
+class aClass : aSuperClass, PrinterProtocol {
+    func printThis() {
+        print("printing this...");
+    }
+    func printThat() {
+        print("printing that...");
+    }
+}
 
 
+var a = aClass();
+var someObject = SomeClass();
+someObject.delegate = a;
+someObject.someEvent();
 
 
 
