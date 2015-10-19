@@ -40,6 +40,10 @@ class Point {
         self.init(x: 0, y: 0);
     }
     
+    deinit{
+        print("in deinit")
+    }
+    
     func distanceFromOrigin()->Double{
         return distanceFromPoint(0, y:0);
     }

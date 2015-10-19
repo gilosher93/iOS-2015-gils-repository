@@ -59,9 +59,6 @@ if b is B{
     print("b cannot be cast to B, wrong type");
 }
 
-//the list of properties and methods after the dot after a pointer, is determined by the type of the pointer. The methods that are actually invoked is determined by the actually type of object that is in memory during runtime.
-
-// הרשימה של השדות והמטודות אחרי הנקודה נקבע עי סוג הפוינטר . אבל בפועל המטודה שמופעלת בזמן ריצה היא המטודה של  האובייקט עצמו. לדוגמא: המשתנה emp2 לא יראה את השדה hourRate, לעומת זאת הוא כן יראה את המטודה description אך בפועל יפעיל את desription של המחלקה Employee
 
 
 

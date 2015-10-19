@@ -27,17 +27,10 @@ if let theSlope = sag.slope{
     print("The Slope Undefined")
 }
 
-var arrayOfPoints:[AnyObject] = [Point(), Point(), Point()];
+var arrayOfPoints:[AnyObject] = [Point(x: 18, y: 30), Point(x: 5, y: 7), Point(x: 3, y: 8)];
 var p1 = arrayOfPoints[0] as! Point;
 var p2 = arrayOfPoints[1] as! Point;
 var p3 = arrayOfPoints[2] as! Point;
-p1._xPos = 18;
-p1._yPos = 30;
-p2._xPos = 5;
-p2._yPos = 7;
-p3._xPos = 3;
-p3._yPos = 8;
-
 
 //comparator will return true if first parameter is larger than the second parameter.
 func sortArray(inout items: [AnyObject], comparator: (AnyObject,AnyObject)->Bool){
@@ -67,3 +60,14 @@ sortArray(&arrayOfPoints) { (p1: AnyObject, p2: AnyObject) -> Bool in
 }
 var p11:Point = Point(x: 4, y: 9);
 print(p11.desctiption())
+
+
+
+
+
+
+
+
+
+
+

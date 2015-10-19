@@ -11,6 +11,7 @@ import Foundation
 class Sagment {
     private var _p1:Point?;
     private var _p2:Point?;
+    private var _isChanged:Bool;
     
     var p1:Point?{
         set{
@@ -26,18 +27,31 @@ class Sagment {
             return _p2;
         }
     }
-    init(x1: Int, y1:Int, x2: Int, y2:Int){
-        p1?._xPos = x1;
-        p1?._yPos = y1;
-        p2?._xPos = x2;
-        p2?._yPos = y2;
+    
+    init(p1: Point?, p2: Point?){
+        //here we are preventing aliasing and also, the initilizer of Point expects a Point that is not optional.
+        if let thePoint1 = p1{
+            _p1 = Point(p: thePoint1);
+        }else{
+            _p1 = Point(x: 0, y: 0);
+        }
+        if let thePoint2 = p2{
+            _p2 = Point(p: thePoint2);
+        }else{
+            _p2 = Point(x: 0, y: 0);
+        }
+        _isChanged = false;
     }
-    convenience init(p1: Point, p2: Point){
-        self.init(x1: p1._xPos, y1: p1._yPos, x2: p2._xPos, y2: p2._yPos);
+    
+    
+    convenience init(other: Sagment){
+        self.init(p1: other.p1, p2: other.p2);
     }
+    
     convenience init(){
-        self.init(x1: 0, y1: 0, x2: 1, y2: 1);
+        self.init(p1: Point(x: 0, y: 0), p2: Point(x: 0, y: 0));
     }
+    
     var length:Double{
         get{
             if let thePoint1 = _p1{
@@ -48,6 +62,7 @@ class Sagment {
             return -1;
         }
     }
+    
     var slope:Double?{
         get{
             if let thePoint1 = _p1{
