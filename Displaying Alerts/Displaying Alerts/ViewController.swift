@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        /*
         controller = UIAlertController(title: "Warning", message: "Battery Low!", preferredStyle: UIAlertControllerStyle.Alert)
         let action = UIAlertAction(title: "OK", style: UIAlertActionStyle.Default) { (action: UIAlertAction) -> Void in
             print("the ok button was trapped");
@@ -38,6 +39,22 @@ class ViewController: UIViewController {
             }
         }
         controller!.addAction(actionNext);
+        */
+        controller = UIAlertController(title: "Choose how you would like to share this photo", message: "message", preferredStyle: UIAlertControllerStyle.ActionSheet);
+        let actionEmail = UIAlertAction(title: "Via email", style: UIAlertActionStyle.Default) { (action: UIAlertAction) -> Void in
+            /* send the photo via email */
+        }
+        
+        let actionImessage = UIAlertAction(title: "Via iMessage", style: UIAlertActionStyle.Default) { (action: UIAlertAction) -> Void in
+            /* send the photo via iMessage */
+        }
+        
+        let actionDelete = UIAlertAction(title: "Delete Photo", style: UIAlertActionStyle.Destructive) { (action: UIAlertAction) -> Void in
+            /* delete the photo */
+        }
+        controller?.addAction(actionEmail);
+        controller?.addAction(actionImessage);
+        controller?.addAction(actionDelete);
     }
     
     override func viewDidAppear(animated: Bool) {
