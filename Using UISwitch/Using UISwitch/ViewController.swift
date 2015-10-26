@@ -18,6 +18,8 @@ class ViewController: UIViewController {
         mainSwitch = UISwitch(frame: CGRect(x: 200, y: 25, width: 0, height: 0));
         view.addSubview(mainSwitch);
         mainSwitch.addTarget(self, action: "switchIsChanged:", forControlEvents: UIControlEvents.ValueChanged);
+        
+        /* Edit Switch Color */
         mainSwitch.tintColor = UIColor.redColor(); //off-mode tint color
         mainSwitch.onTintColor = UIColor.blueColor(); //on-mode tint color
         mainSwitch.thumbTintColor = UIColor.yellowColor(); 

@@ -15,16 +15,22 @@ class ViewController: UIViewController {
     var controller: UIAlertController!;
     var singinController: UIAlertController!;
     var users: [User] = [User]();
-    
+     
     override func viewDidLoad() {
         super.viewDidLoad()
         wallpaper = UIImageView(frame: view.bounds);
-        wallpaper.image = UIImage(named: "blocks");
+        wallpaper.image = UIImage(named: "hand");
         wallpaper.contentMode = UIViewContentMode.ScaleAspectFit;
         wallpaper.center = view.center;
         view.addSubview(wallpaper);
         let btn1 = UIImage(named: "red_button");
         btnLogin = UIButton(type: UIButtonType.Custom);
+        
+        // we can put the button where ever I want in the screen using view frame width/height.
+        /*
+        let x = (view.frame.width - 100) / 2;
+        let y = (view.frame.height - 40) / 3;
+        */
         btnLogin.frame = CGRect(x: 170, y: 450, width: 100, height: 50);
         btnLogin.setTitle("התחבר", forState: UIControlState.Normal);
         btnLogin.setBackgroundImage(btn1, forState: UIControlState.Normal);
@@ -42,6 +48,8 @@ class ViewController: UIViewController {
     
     func loginAlert(sender: UIButton){
         controller = UIAlertController(title: "התחברות", message: "אנא הכנס שם משתמש וסיסמא", preferredStyle: UIAlertControllerStyle.Alert);
+        
+        //add edit text to the popUpAlert
         controller!.addTextFieldWithConfigurationHandler { (userName: UITextField) -> Void in
             userName.placeholder = "הכנס שם משתמש";
             userName.textAlignment = NSTextAlignment.Right;
