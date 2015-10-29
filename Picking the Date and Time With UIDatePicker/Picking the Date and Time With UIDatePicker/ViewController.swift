@@ -17,15 +17,18 @@ class ViewController: UIViewController {
         
         datePicker = UIDatePicker();
         datePicker.center = view.center;
-        view.addSubview(datePicker);
-        
         datePicker.addTarget(self, action: "datePickerDateChanged:", forControlEvents: UIControlEvents.ValueChanged);
         
+        view.addSubview(datePicker);
     }
     
     func datePickerDateChanged(sender: UIDatePicker){
+        //get the date from the datePicker
         let chosenDate = datePicker.date;
+        
+        //get the hour from the date Using Calendar.
         let hour = NSCalendar.currentCalendar().component(NSCalendarUnit.Hour, fromDate: chosenDate);
+        
         print("hour = \(hour)")
     }
     
