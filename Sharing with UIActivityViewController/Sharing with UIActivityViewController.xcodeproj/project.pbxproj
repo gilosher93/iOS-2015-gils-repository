@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46DF4F7C1BE25735009737FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DF4F7B1BE25735009737FA /* AppDelegate.swift */; };
+		46DF4F7E1BE25735009737FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DF4F7D1BE25735009737FA /* ViewController.swift */; };
+		46DF4F811BE25735009737FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46DF4F7F1BE25735009737FA /* Main.storyboard */; };
+		46DF4F831BE25735009737FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46DF4F821BE25735009737FA /* Assets.xcassets */; };
+		46DF4F861BE25735009737FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46DF4F841BE25735009737FA /* LaunchScreen.storyboard */; };
+		46DF4F911BE25735009737FA /* Sharing_with_UIActivityViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DF4F901BE25735009737FA /* Sharing_with_UIActivityViewControllerTests.swift */; };
+		46DF4F9C1BE25735009737FA /* Sharing_with_UIActivityViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DF4F9B1BE25735009737FA /* Sharing_with_UIActivityViewControllerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46DF4F8D1BE25735009737FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46DF4F701BE25735009737FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46DF4F771BE25735009737FA;
+			remoteInfo = "Sharing with UIActivityViewController";
+		};
+		46DF4F981BE25735009737FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46DF4F701BE25735009737FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46DF4F771BE25735009737FA;
+			remoteInfo = "Sharing with UIActivityViewController";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46DF4F781BE25735009737FA /* Sharing with UIActivityViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sharing with UIActivityViewController.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46DF4F7B1BE25735009737FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46DF4F7D1BE25735009737FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46DF4F801BE25735009737FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46DF4F821BE25735009737FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46DF4F851BE25735009737FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46DF4F871BE25735009737FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46DF4F8C1BE25735009737FA /* Sharing with UIActivityViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sharing with UIActivityViewControllerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46DF4F901BE25735009737FA /* Sharing_with_UIActivityViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sharing_with_UIActivityViewControllerTests.swift; sourceTree = "<group>"; };
+		46DF4F921BE25735009737FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46DF4F971BE25735009737FA /* Sharing with UIActivityViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sharing with UIActivityViewControllerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46DF4F9B1BE25735009737FA /* Sharing_with_UIActivityViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sharing_with_UIActivityViewControllerUITests.swift; sourceTree = "<group>"; };
+		46DF4F9D1BE25735009737FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46DF4F751BE25735009737FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46DF4F891BE25735009737FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46DF4F941BE25735009737FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46DF4F6F1BE25735009737FA = {
+			isa = PBXGroup;
+			children = (
+				46DF4F7A1BE25735009737FA /* Sharing with UIActivityViewController */,
+				46DF4F8F1BE25735009737FA /* Sharing with UIActivityViewControllerTests */,
+				46DF4F9A1BE25735009737FA /* Sharing with UIActivityViewControllerUITests */,
+				46DF4F791BE25735009737FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46DF4F791BE25735009737FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46DF4F781BE25735009737FA /* Sharing with UIActivityViewController.app */,
+				46DF4F8C1BE25735009737FA /* Sharing with UIActivityViewControllerTests.xctest */,
+				46DF4F971BE25735009737FA /* Sharing with UIActivityViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46DF4F7A1BE25735009737FA /* Sharing with UIActivityViewController */ = {
+			isa = PBXGroup;
+			children = (
+				46DF4F7B1BE25735009737FA /* AppDelegate.swift */,
+				46DF4F7D1BE25735009737FA /* ViewController.swift */,
+				46DF4F7F1BE25735009737FA /* Main.storyboard */,
+				46DF4F821BE25735009737FA /* Assets.xcassets */,
+				46DF4F841BE25735009737FA /* LaunchScreen.storyboard */,
+				46DF4F871BE25735009737FA /* Info.plist */,
+			);
+			path = "Sharing with UIActivityViewController";
+			sourceTree = "<group>";
+		};
+		46DF4F8F1BE25735009737FA /* Sharing with UIActivityViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				46DF4F901BE25735009737FA /* Sharing_with_UIActivityViewControllerTests.swift */,
+				46DF4F921BE25735009737FA /* Info.plist */,
+			);
+			path = "Sharing with UIActivityViewControllerTests";
+			sourceTree = "<group>";
+		};
+		46DF4F9A1BE25735009737FA /* Sharing with UIActivityViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46DF4F9B1BE25735009737FA /* Sharing_with_UIActivityViewControllerUITests.swift */,
+				46DF4F9D1BE25735009737FA /* Info.plist */,
+			);
+			path = "Sharing with UIActivityViewControllerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46DF4F771BE25735009737FA /* Sharing with UIActivityViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46DF4FA01BE25735009737FA /* Build configuration list for PBXNativeTarget "Sharing with UIActivityViewController" */;
+			buildPhases = (
+				46DF4F741BE25735009737FA /* Sources */,
+				46DF4F751BE25735009737FA /* Frameworks */,
+				46DF4F761BE25735009737FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sharing with UIActivityViewController";
+			productName = "Sharing with UIActivityViewController";
+			productReference = 46DF4F781BE25735009737FA /* Sharing with UIActivityViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46DF4F8B1BE25735009737FA /* Sharing with UIActivityViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46DF4FA31BE25735009737FA /* Build configuration list for PBXNativeTarget "Sharing with UIActivityViewControllerTests" */;
+			buildPhases = (
+				46DF4F881BE25735009737FA /* Sources */,
+				46DF4F891BE25735009737FA /* Frameworks */,
+				46DF4F8A1BE25735009737FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46DF4F8E1BE25735009737FA /* PBXTargetDependency */,
+			);
+			name = "Sharing with UIActivityViewControllerTests";
+			productName = "Sharing with UIActivityViewControllerTests";
+			productReference = 46DF4F8C1BE25735009737FA /* Sharing with UIActivityViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46DF4F961BE25735009737FA /* Sharing with UIActivityViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46DF4FA61BE25735009737FA /* Build configuration list for PBXNativeTarget "Sharing with UIActivityViewControllerUITests" */;
+			buildPhases = (
+				46DF4F931BE25735009737FA /* Sources */,
+				46DF4F941BE25735009737FA /* Frameworks */,
+				46DF4F951BE25735009737FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46DF4F991BE25735009737FA /* PBXTargetDependency */,
+			);
+			name = "Sharing with UIActivityViewControllerUITests";
+			productName = "Sharing with UIActivityViewControllerUITests";
+			productReference = 46DF4F971BE25735009737FA /* Sharing with UIActivityViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46DF4F701BE25735009737FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "gil osher";
+				TargetAttributes = {
+					46DF4F771BE25735009737FA = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 3ZM8DXSR64;
+					};
+					46DF4F8B1BE25735009737FA = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 3ZM8DXSR64;
+						TestTargetID = 46DF4F771BE25735009737FA;
+					};
+					46DF4F961BE25735009737FA = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 3ZM8DXSR64;
+						TestTargetID = 46DF4F771BE25735009737FA;
+					};
+				};
+			};
+			buildConfigurationList = 46DF4F731BE25735009737FA /* Build configuration list for PBXProject "Sharing with UIActivityViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46DF4F6F1BE25735009737FA;
+			productRefGroup = 46DF4F791BE25735009737FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46DF4F771BE25735009737FA /* Sharing with UIActivityViewController */,
+				46DF4F8B1BE25735009737FA /* Sharing with UIActivityViewControllerTests */,
+				46DF4F961BE25735009737FA /* Sharing with UIActivityViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46DF4F761BE25735009737FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46DF4F861BE25735009737FA /* LaunchScreen.storyboard in Resources */,
+				46DF4F831BE25735009737FA /* Assets.xcassets in Resources */,
+				46DF4F811BE25735009737FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46DF4F8A1BE25735009737FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46DF4F951BE25735009737FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46DF4F741BE25735009737FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46DF4F7E1BE25735009737FA /* ViewController.swift in Sources */,
+				46DF4F7C1BE25735009737FA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46DF4F881BE25735009737FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46DF4F911BE25735009737FA /* Sharing_with_UIActivityViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46DF4F931BE25735009737FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46DF4F9C1BE25735009737FA /* Sharing_with_UIActivityViewControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46DF4F8E1BE25735009737FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46DF4F771BE25735009737FA /* Sharing with UIActivityViewController */;
+			targetProxy = 46DF4F8D1BE25735009737FA /* PBXContainerItemProxy */;
+		};
+		46DF4F991BE25735009737FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46DF4F771BE25735009737FA /* Sharing with UIActivityViewController */;
+			targetProxy = 46DF4F981BE25735009737FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46DF4F7F1BE25735009737FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46DF4F801BE25735009737FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46DF4F841BE25735009737FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46DF4F851BE25735009737FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46DF4F9E1BE25735009737FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46DF4F9F1BE25735009737FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46DF4FA11BE25735009737FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sharing with UIActivityViewController/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Sharing-with-UIActivityViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46DF4FA21BE25735009737FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sharing with UIActivityViewController/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Sharing-with-UIActivityViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		46DF4FA41BE25735009737FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Sharing with UIActivityViewControllerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Sharing-with-UIActivityViewControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sharing with UIActivityViewController.app/Sharing with UIActivityViewController";
+			};
+			name = Debug;
+		};
+		46DF4FA51BE25735009737FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Sharing with UIActivityViewControllerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Sharing-with-UIActivityViewControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sharing with UIActivityViewController.app/Sharing with UIActivityViewController";
+			};
+			name = Release;
+		};
+		46DF4FA71BE25735009737FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Sharing with UIActivityViewControllerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Sharing-with-UIActivityViewControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Sharing with UIActivityViewController";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		46DF4FA81BE25735009737FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Sharing with UIActivityViewControllerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Sharing-with-UIActivityViewControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Sharing with UIActivityViewController";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46DF4F731BE25735009737FA /* Build configuration list for PBXProject "Sharing with UIActivityViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46DF4F9E1BE25735009737FA /* Debug */,
+				46DF4F9F1BE25735009737FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46DF4FA01BE25735009737FA /* Build configuration list for PBXNativeTarget "Sharing with UIActivityViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46DF4FA11BE25735009737FA /* Debug */,
+				46DF4FA21BE25735009737FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46DF4FA31BE25735009737FA /* Build configuration list for PBXNativeTarget "Sharing with UIActivityViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46DF4FA41BE25735009737FA /* Debug */,
+				46DF4FA51BE25735009737FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46DF4FA61BE25735009737FA /* Build configuration list for PBXNativeTarget "Sharing with UIActivityViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46DF4FA71BE25735009737FA /* Debug */,
+				46DF4FA81BE25735009737FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46DF4F701BE25735009737FA /* Project object */;
+}

@@ -30,7 +30,7 @@ class ViewController2: UIViewController {
         print("2 : view did Load ");
     }
     func handleClick(sender: UIButton){
-        dismissViewControllerAnimated(true, completion: nil)
+        dismissViewControllerAnimated(false, completion: nil)
     }
     override func viewDidAppear(animated: Bool) {
         print("2 : view did Appear \(counter)")
