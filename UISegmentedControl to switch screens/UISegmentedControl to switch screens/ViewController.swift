@@ -17,7 +17,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad();
-        
         createSegmentedControl();
         createContainer(0);
     }
@@ -33,6 +32,7 @@ class ViewController: UIViewController {
         segmentedControl = UISegmentedControl(items: segments);
         segmentedControl.frame = CGRect(x: 5, y: 20, width: view.frame.width - 10, height: 30);
         segmentedControl.addTarget(self, action: "segmentedControlValueChanged:", forControlEvents: UIControlEvents.ValueChanged);
+        
         view.addSubview(segmentedControl);
     }
     
