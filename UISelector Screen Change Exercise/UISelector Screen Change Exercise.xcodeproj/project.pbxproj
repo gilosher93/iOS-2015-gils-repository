@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		467836FB1BE2199C0054CBF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467836FA1BE2199C0054CBF5 /* AppDelegate.swift */; };
+		467836FD1BE2199C0054CBF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467836FC1BE2199C0054CBF5 /* ViewController.swift */; };
+		467837001BE2199C0054CBF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 467836FE1BE2199C0054CBF5 /* Main.storyboard */; };
+		467837021BE2199C0054CBF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 467837011BE2199C0054CBF5 /* Assets.xcassets */; };
+		467837051BE2199C0054CBF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 467837031BE2199C0054CBF5 /* LaunchScreen.storyboard */; };
+		467837101BE2199C0054CBF5 /* UISelector_Screen_Change_ExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4678370F1BE2199C0054CBF5 /* UISelector_Screen_Change_ExerciseTests.swift */; };
+		4678371B1BE2199D0054CBF5 /* UISelector_Screen_Change_ExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4678371A1BE2199D0054CBF5 /* UISelector_Screen_Change_ExerciseUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4678370C1BE2199C0054CBF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 467836EF1BE2199C0054CBF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 467836F61BE2199C0054CBF5;
+			remoteInfo = "UISelector Screen Change Exercise";
+		};
+		467837171BE2199D0054CBF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 467836EF1BE2199C0054CBF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 467836F61BE2199C0054CBF5;
+			remoteInfo = "UISelector Screen Change Exercise";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		467836F71BE2199C0054CBF5 /* UISelector Screen Change Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UISelector Screen Change Exercise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		467836FA1BE2199C0054CBF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		467836FC1BE2199C0054CBF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		467836FF1BE2199C0054CBF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		467837011BE2199C0054CBF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		467837041BE2199C0054CBF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		467837061BE2199C0054CBF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4678370B1BE2199C0054CBF5 /* UISelector Screen Change ExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UISelector Screen Change ExerciseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4678370F1BE2199C0054CBF5 /* UISelector_Screen_Change_ExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISelector_Screen_Change_ExerciseTests.swift; sourceTree = "<group>"; };
+		467837111BE2199C0054CBF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		467837161BE2199D0054CBF5 /* UISelector Screen Change ExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UISelector Screen Change ExerciseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4678371A1BE2199D0054CBF5 /* UISelector_Screen_Change_ExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISelector_Screen_Change_ExerciseUITests.swift; sourceTree = "<group>"; };
+		4678371C1BE2199D0054CBF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		467836F41BE2199C0054CBF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467837081BE2199C0054CBF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467837131BE2199D0054CBF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		467836EE1BE2199C0054CBF5 = {
+			isa = PBXGroup;
+			children = (
+				467836F91BE2199C0054CBF5 /* UISelector Screen Change Exercise */,
+				4678370E1BE2199C0054CBF5 /* UISelector Screen Change ExerciseTests */,
+				467837191BE2199D0054CBF5 /* UISelector Screen Change ExerciseUITests */,
+				467836F81BE2199C0054CBF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		467836F81BE2199C0054CBF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				467836F71BE2199C0054CBF5 /* UISelector Screen Change Exercise.app */,
+				4678370B1BE2199C0054CBF5 /* UISelector Screen Change ExerciseTests.xctest */,
+				467837161BE2199D0054CBF5 /* UISelector Screen Change ExerciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		467836F91BE2199C0054CBF5 /* UISelector Screen Change Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				467836FA1BE2199C0054CBF5 /* AppDelegate.swift */,
+				467836FC1BE2199C0054CBF5 /* ViewController.swift */,
+				467836FE1BE2199C0054CBF5 /* Main.storyboard */,
+				467837011BE2199C0054CBF5 /* Assets.xcassets */,
+				467837031BE2199C0054CBF5 /* LaunchScreen.storyboard */,
+				467837061BE2199C0054CBF5 /* Info.plist */,
+			);
+			path = "UISelector Screen Change Exercise";
+			sourceTree = "<group>";
+		};
+		4678370E1BE2199C0054CBF5 /* UISelector Screen Change ExerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				4678370F1BE2199C0054CBF5 /* UISelector_Screen_Change_ExerciseTests.swift */,
+				467837111BE2199C0054CBF5 /* Info.plist */,
+			);
+			path = "UISelector Screen Change ExerciseTests";
+			sourceTree = "<group>";
+		};
+		467837191BE2199D0054CBF5 /* UISelector Screen Change ExerciseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4678371A1BE2199D0054CBF5 /* UISelector_Screen_Change_ExerciseUITests.swift */,
+				4678371C1BE2199D0054CBF5 /* Info.plist */,
+			);
+			path = "UISelector Screen Change ExerciseUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		467836F61BE2199C0054CBF5 /* UISelector Screen Change Exercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4678371F1BE2199D0054CBF5 /* Build configuration list for PBXNativeTarget "UISelector Screen Change Exercise" */;
+			buildPhases = (
+				467836F31BE2199C0054CBF5 /* Sources */,
+				467836F41BE2199C0054CBF5 /* Frameworks */,
+				467836F51BE2199C0054CBF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UISelector Screen Change Exercise";
+			productName = "UISelector Screen Change Exercise";
+			productReference = 467836F71BE2199C0054CBF5 /* UISelector Screen Change Exercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4678370A1BE2199C0054CBF5 /* UISelector Screen Change ExerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 467837221BE2199D0054CBF5 /* Build configuration list for PBXNativeTarget "UISelector Screen Change ExerciseTests" */;
+			buildPhases = (
+				467837071BE2199C0054CBF5 /* Sources */,
+				467837081BE2199C0054CBF5 /* Frameworks */,
+				467837091BE2199C0054CBF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4678370D1BE2199C0054CBF5 /* PBXTargetDependency */,
+			);
+			name = "UISelector Screen Change ExerciseTests";
+			productName = "UISelector Screen Change ExerciseTests";
+			productReference = 4678370B1BE2199C0054CBF5 /* UISelector Screen Change ExerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		467837151BE2199D0054CBF5 /* UISelector Screen Change ExerciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 467837251BE2199D0054CBF5 /* Build configuration list for PBXNativeTarget "UISelector Screen Change ExerciseUITests" */;
+			buildPhases = (
+				467837121BE2199D0054CBF5 /* Sources */,
+				467837131BE2199D0054CBF5 /* Frameworks */,
+				467837141BE2199D0054CBF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				467837181BE2199D0054CBF5 /* PBXTargetDependency */,
+			);
+			name = "UISelector Screen Change ExerciseUITests";
+			productName = "UISelector Screen Change ExerciseUITests";
+			productReference = 467837161BE2199D0054CBF5 /* UISelector Screen Change ExerciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		467836EF1BE2199C0054CBF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "gil osher";
+				TargetAttributes = {
+					467836F61BE2199C0054CBF5 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 3ZM8DXSR64;
+					};
+					4678370A1BE2199C0054CBF5 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 3ZM8DXSR64;
+						TestTargetID = 467836F61BE2199C0054CBF5;
+					};
+					467837151BE2199D0054CBF5 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 3ZM8DXSR64;
+						TestTargetID = 467836F61BE2199C0054CBF5;
+					};
+				};
+			};
+			buildConfigurationList = 467836F21BE2199C0054CBF5 /* Build configuration list for PBXProject "UISelector Screen Change Exercise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 467836EE1BE2199C0054CBF5;
+			productRefGroup = 467836F81BE2199C0054CBF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				467836F61BE2199C0054CBF5 /* UISelector Screen Change Exercise */,
+				4678370A1BE2199C0054CBF5 /* UISelector Screen Change ExerciseTests */,
+				467837151BE2199D0054CBF5 /* UISelector Screen Change ExerciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		467836F51BE2199C0054CBF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467837051BE2199C0054CBF5 /* LaunchScreen.storyboard in Resources */,
+				467837021BE2199C0054CBF5 /* Assets.xcassets in Resources */,
+				467837001BE2199C0054CBF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467837091BE2199C0054CBF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467837141BE2199D0054CBF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		467836F31BE2199C0054CBF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467836FD1BE2199C0054CBF5 /* ViewController.swift in Sources */,
+				467836FB1BE2199C0054CBF5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467837071BE2199C0054CBF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467837101BE2199C0054CBF5 /* UISelector_Screen_Change_ExerciseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467837121BE2199D0054CBF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4678371B1BE2199D0054CBF5 /* UISelector_Screen_Change_ExerciseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4678370D1BE2199C0054CBF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 467836F61BE2199C0054CBF5 /* UISelector Screen Change Exercise */;
+			targetProxy = 4678370C1BE2199C0054CBF5 /* PBXContainerItemProxy */;
+		};
+		467837181BE2199D0054CBF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 467836F61BE2199C0054CBF5 /* UISelector Screen Change Exercise */;
+			targetProxy = 467837171BE2199D0054CBF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		467836FE1BE2199C0054CBF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				467836FF1BE2199C0054CBF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		467837031BE2199C0054CBF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				467837041BE2199C0054CBF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4678371D1BE2199D0054CBF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4678371E1BE2199D0054CBF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		467837201BE2199D0054CBF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UISelector Screen Change Exercise/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.UISelector-Screen-Change-Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		467837211BE2199D0054CBF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UISelector Screen Change Exercise/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.UISelector-Screen-Change-Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		467837231BE2199D0054CBF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UISelector Screen Change ExerciseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.UISelector-Screen-Change-ExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UISelector Screen Change Exercise.app/UISelector Screen Change Exercise";
+			};
+			name = Debug;
+		};
+		467837241BE2199D0054CBF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UISelector Screen Change ExerciseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.UISelector-Screen-Change-ExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UISelector Screen Change Exercise.app/UISelector Screen Change Exercise";
+			};
+			name = Release;
+		};
+		467837261BE2199D0054CBF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UISelector Screen Change ExerciseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.UISelector-Screen-Change-ExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UISelector Screen Change Exercise";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		467837271BE2199D0054CBF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UISelector Screen Change ExerciseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.UISelector-Screen-Change-ExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UISelector Screen Change Exercise";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		467836F21BE2199C0054CBF5 /* Build configuration list for PBXProject "UISelector Screen Change Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4678371D1BE2199D0054CBF5 /* Debug */,
+				4678371E1BE2199D0054CBF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4678371F1BE2199D0054CBF5 /* Build configuration list for PBXNativeTarget "UISelector Screen Change Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467837201BE2199D0054CBF5 /* Debug */,
+				467837211BE2199D0054CBF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		467837221BE2199D0054CBF5 /* Build configuration list for PBXNativeTarget "UISelector Screen Change ExerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467837231BE2199D0054CBF5 /* Debug */,
+				467837241BE2199D0054CBF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		467837251BE2199D0054CBF5 /* Build configuration list for PBXNativeTarget "UISelector Screen Change ExerciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467837261BE2199D0054CBF5 /* Debug */,
+				467837271BE2199D0054CBF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 467836EF1BE2199C0054CBF5 /* Project object */;
+}
