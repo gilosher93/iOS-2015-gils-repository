@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		465670351BE76ECB00B5AE13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465670341BE76ECB00B5AE13 /* AppDelegate.swift */; };
+		465670371BE76ECB00B5AE13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465670361BE76ECB00B5AE13 /* ViewController.swift */; };
+		4656703A1BE76ECB00B5AE13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465670381BE76ECB00B5AE13 /* Main.storyboard */; };
+		4656703C1BE76ECB00B5AE13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4656703B1BE76ECB00B5AE13 /* Assets.xcassets */; };
+		4656703F1BE76ECB00B5AE13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4656703D1BE76ECB00B5AE13 /* LaunchScreen.storyboard */; };
+		4656704A1BE76ECB00B5AE13 /* Creating_Scrollable_Content_with_UIScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465670491BE76ECB00B5AE13 /* Creating_Scrollable_Content_with_UIScrollViewTests.swift */; };
+		465670551BE76ECB00B5AE13 /* Creating_Scrollable_Content_with_UIScrollViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465670541BE76ECB00B5AE13 /* Creating_Scrollable_Content_with_UIScrollViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		465670461BE76ECB00B5AE13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 465670291BE76ECB00B5AE13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 465670301BE76ECB00B5AE13;
+			remoteInfo = "Creating Scrollable Content with UIScrollView";
+		};
+		465670511BE76ECB00B5AE13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 465670291BE76ECB00B5AE13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 465670301BE76ECB00B5AE13;
+			remoteInfo = "Creating Scrollable Content with UIScrollView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		465670311BE76ECB00B5AE13 /* Creating Scrollable Content with UIScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Creating Scrollable Content with UIScrollView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		465670341BE76ECB00B5AE13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		465670361BE76ECB00B5AE13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		465670391BE76ECB00B5AE13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4656703B1BE76ECB00B5AE13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4656703E1BE76ECB00B5AE13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		465670401BE76ECB00B5AE13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		465670451BE76ECB00B5AE13 /* Creating Scrollable Content with UIScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Creating Scrollable Content with UIScrollViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		465670491BE76ECB00B5AE13 /* Creating_Scrollable_Content_with_UIScrollViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creating_Scrollable_Content_with_UIScrollViewTests.swift; sourceTree = "<group>"; };
+		4656704B1BE76ECB00B5AE13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		465670501BE76ECB00B5AE13 /* Creating Scrollable Content with UIScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Creating Scrollable Content with UIScrollViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		465670541BE76ECB00B5AE13 /* Creating_Scrollable_Content_with_UIScrollViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creating_Scrollable_Content_with_UIScrollViewUITests.swift; sourceTree = "<group>"; };
+		465670561BE76ECB00B5AE13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4656702E1BE76ECB00B5AE13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465670421BE76ECB00B5AE13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4656704D1BE76ECB00B5AE13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		465670281BE76ECB00B5AE13 = {
+			isa = PBXGroup;
+			children = (
+				465670331BE76ECB00B5AE13 /* Creating Scrollable Content with UIScrollView */,
+				465670481BE76ECB00B5AE13 /* Creating Scrollable Content with UIScrollViewTests */,
+				465670531BE76ECB00B5AE13 /* Creating Scrollable Content with UIScrollViewUITests */,
+				465670321BE76ECB00B5AE13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		465670321BE76ECB00B5AE13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				465670311BE76ECB00B5AE13 /* Creating Scrollable Content with UIScrollView.app */,
+				465670451BE76ECB00B5AE13 /* Creating Scrollable Content with UIScrollViewTests.xctest */,
+				465670501BE76ECB00B5AE13 /* Creating Scrollable Content with UIScrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		465670331BE76ECB00B5AE13 /* Creating Scrollable Content with UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				465670341BE76ECB00B5AE13 /* AppDelegate.swift */,
+				465670361BE76ECB00B5AE13 /* ViewController.swift */,
+				465670381BE76ECB00B5AE13 /* Main.storyboard */,
+				4656703B1BE76ECB00B5AE13 /* Assets.xcassets */,
+				4656703D1BE76ECB00B5AE13 /* LaunchScreen.storyboard */,
+				465670401BE76ECB00B5AE13 /* Info.plist */,
+			);
+			path = "Creating Scrollable Content with UIScrollView";
+			sourceTree = "<group>";
+		};
+		465670481BE76ECB00B5AE13 /* Creating Scrollable Content with UIScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				465670491BE76ECB00B5AE13 /* Creating_Scrollable_Content_with_UIScrollViewTests.swift */,
+				4656704B1BE76ECB00B5AE13 /* Info.plist */,
+			);
+			path = "Creating Scrollable Content with UIScrollViewTests";
+			sourceTree = "<group>";
+		};
+		465670531BE76ECB00B5AE13 /* Creating Scrollable Content with UIScrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				465670541BE76ECB00B5AE13 /* Creating_Scrollable_Content_with_UIScrollViewUITests.swift */,
+				465670561BE76ECB00B5AE13 /* Info.plist */,
+			);
+			path = "Creating Scrollable Content with UIScrollViewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		465670301BE76ECB00B5AE13 /* Creating Scrollable Content with UIScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 465670591BE76ECB00B5AE13 /* Build configuration list for PBXNativeTarget "Creating Scrollable Content with UIScrollView" */;
+			buildPhases = (
+				4656702D1BE76ECB00B5AE13 /* Sources */,
+				4656702E1BE76ECB00B5AE13 /* Frameworks */,
+				4656702F1BE76ECB00B5AE13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Creating Scrollable Content with UIScrollView";
+			productName = "Creating Scrollable Content with UIScrollView";
+			productReference = 465670311BE76ECB00B5AE13 /* Creating Scrollable Content with UIScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		465670441BE76ECB00B5AE13 /* Creating Scrollable Content with UIScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4656705C1BE76ECB00B5AE13 /* Build configuration list for PBXNativeTarget "Creating Scrollable Content with UIScrollViewTests" */;
+			buildPhases = (
+				465670411BE76ECB00B5AE13 /* Sources */,
+				465670421BE76ECB00B5AE13 /* Frameworks */,
+				465670431BE76ECB00B5AE13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				465670471BE76ECB00B5AE13 /* PBXTargetDependency */,
+			);
+			name = "Creating Scrollable Content with UIScrollViewTests";
+			productName = "Creating Scrollable Content with UIScrollViewTests";
+			productReference = 465670451BE76ECB00B5AE13 /* Creating Scrollable Content with UIScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4656704F1BE76ECB00B5AE13 /* Creating Scrollable Content with UIScrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4656705F1BE76ECB00B5AE13 /* Build configuration list for PBXNativeTarget "Creating Scrollable Content with UIScrollViewUITests" */;
+			buildPhases = (
+				4656704C1BE76ECB00B5AE13 /* Sources */,
+				4656704D1BE76ECB00B5AE13 /* Frameworks */,
+				4656704E1BE76ECB00B5AE13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				465670521BE76ECB00B5AE13 /* PBXTargetDependency */,
+			);
+			name = "Creating Scrollable Content with UIScrollViewUITests";
+			productName = "Creating Scrollable Content with UIScrollViewUITests";
+			productReference = 465670501BE76ECB00B5AE13 /* Creating Scrollable Content with UIScrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		465670291BE76ECB00B5AE13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "gil osher";
+				TargetAttributes = {
+					465670301BE76ECB00B5AE13 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 3ZM8DXSR64;
+					};
+					465670441BE76ECB00B5AE13 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 3ZM8DXSR64;
+						TestTargetID = 465670301BE76ECB00B5AE13;
+					};
+					4656704F1BE76ECB00B5AE13 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 3ZM8DXSR64;
+						TestTargetID = 465670301BE76ECB00B5AE13;
+					};
+				};
+			};
+			buildConfigurationList = 4656702C1BE76ECB00B5AE13 /* Build configuration list for PBXProject "Creating Scrollable Content with UIScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 465670281BE76ECB00B5AE13;
+			productRefGroup = 465670321BE76ECB00B5AE13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				465670301BE76ECB00B5AE13 /* Creating Scrollable Content with UIScrollView */,
+				465670441BE76ECB00B5AE13 /* Creating Scrollable Content with UIScrollViewTests */,
+				4656704F1BE76ECB00B5AE13 /* Creating Scrollable Content with UIScrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4656702F1BE76ECB00B5AE13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4656703F1BE76ECB00B5AE13 /* LaunchScreen.storyboard in Resources */,
+				4656703C1BE76ECB00B5AE13 /* Assets.xcassets in Resources */,
+				4656703A1BE76ECB00B5AE13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465670431BE76ECB00B5AE13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4656704E1BE76ECB00B5AE13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4656702D1BE76ECB00B5AE13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465670371BE76ECB00B5AE13 /* ViewController.swift in Sources */,
+				465670351BE76ECB00B5AE13 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465670411BE76ECB00B5AE13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4656704A1BE76ECB00B5AE13 /* Creating_Scrollable_Content_with_UIScrollViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4656704C1BE76ECB00B5AE13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465670551BE76ECB00B5AE13 /* Creating_Scrollable_Content_with_UIScrollViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		465670471BE76ECB00B5AE13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 465670301BE76ECB00B5AE13 /* Creating Scrollable Content with UIScrollView */;
+			targetProxy = 465670461BE76ECB00B5AE13 /* PBXContainerItemProxy */;
+		};
+		465670521BE76ECB00B5AE13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 465670301BE76ECB00B5AE13 /* Creating Scrollable Content with UIScrollView */;
+			targetProxy = 465670511BE76ECB00B5AE13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		465670381BE76ECB00B5AE13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				465670391BE76ECB00B5AE13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4656703D1BE76ECB00B5AE13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4656703E1BE76ECB00B5AE13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		465670571BE76ECB00B5AE13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		465670581BE76ECB00B5AE13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4656705A1BE76ECB00B5AE13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Creating Scrollable Content with UIScrollView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Creating-Scrollable-Content-with-UIScrollView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4656705B1BE76ECB00B5AE13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Creating Scrollable Content with UIScrollView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Creating-Scrollable-Content-with-UIScrollView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4656705D1BE76ECB00B5AE13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Creating Scrollable Content with UIScrollViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Creating-Scrollable-Content-with-UIScrollViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Creating Scrollable Content with UIScrollView.app/Creating Scrollable Content with UIScrollView";
+			};
+			name = Debug;
+		};
+		4656705E1BE76ECB00B5AE13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Creating Scrollable Content with UIScrollViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Creating-Scrollable-Content-with-UIScrollViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Creating Scrollable Content with UIScrollView.app/Creating Scrollable Content with UIScrollView";
+			};
+			name = Release;
+		};
+		465670601BE76ECB00B5AE13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Creating Scrollable Content with UIScrollViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Creating-Scrollable-Content-with-UIScrollViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Creating Scrollable Content with UIScrollView";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		465670611BE76ECB00B5AE13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Creating Scrollable Content with UIScrollViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Creating-Scrollable-Content-with-UIScrollViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Creating Scrollable Content with UIScrollView";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4656702C1BE76ECB00B5AE13 /* Build configuration list for PBXProject "Creating Scrollable Content with UIScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				465670571BE76ECB00B5AE13 /* Debug */,
+				465670581BE76ECB00B5AE13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		465670591BE76ECB00B5AE13 /* Build configuration list for PBXNativeTarget "Creating Scrollable Content with UIScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4656705A1BE76ECB00B5AE13 /* Debug */,
+				4656705B1BE76ECB00B5AE13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4656705C1BE76ECB00B5AE13 /* Build configuration list for PBXNativeTarget "Creating Scrollable Content with UIScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4656705D1BE76ECB00B5AE13 /* Debug */,
+				4656705E1BE76ECB00B5AE13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4656705F1BE76ECB00B5AE13 /* Build configuration list for PBXNativeTarget "Creating Scrollable Content with UIScrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				465670601BE76ECB00B5AE13 /* Debug */,
+				465670611BE76ECB00B5AE13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 465670291BE76ECB00B5AE13 /* Project object */;
+}

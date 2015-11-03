@@ -13,6 +13,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     var textField: UITextField!;
     var buttonShare: UIButton!;
     var activityViewController: UIActivityViewController!;
+    
     override func viewDidLoad() {
         super.viewDidLoad();
         
