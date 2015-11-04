@@ -11,7 +11,6 @@ import UIKit
 class ViewController: UIViewController , UITextFieldDelegate {
     
     var textField: UITextField!;
-    var thereIsPoint = false;
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,14 +23,8 @@ class ViewController: UIViewController , UITextFieldDelegate {
         
     }
     func checkIfValid(text: String) -> Bool{
-        let theText = (text as NSString);
-        for i in 0..<theText.length{
-            let char = Int(theText.characterAtIndex(i));
-            if(char == 46){
-                return !thereIsPoint;
-            }else if (!checkForDigit(String(char))) {
-                return false;
-            }
+        if(!checkForDigit(text) && !checkForPoint(text)){
+            return false;
         }
         return true;
     }
@@ -39,7 +32,7 @@ class ViewController: UIViewController , UITextFieldDelegate {
         let theText = (stringToCheck as NSString);
         for i in 0..<theText.length{
             let char = Int(theText.characterAtIndex(i));
-            if(char < 48 || char > 56){
+            if(char < 48 || char > 57){
                 return false;
             }
         }
@@ -59,10 +52,19 @@ class ViewController: UIViewController , UITextFieldDelegate {
         if !checkIfValid(string){
             return false;
         }
+        
         let text = textField.text! as NSString;
-        thereIsPoint = checkForPoint(text as String);
-        if(thereIsPoint && checkForPoint(string)){
-           return !checkForDigit(string);
+        let str = string as NSString;
+        
+        let ch = text.length == 0 ? str.characterAtIndex(0) : text.characterAtIndex(0);
+        if ch == 48 || ch == 46{
+            return false;
+        }
+        if(checkForPoint(text as String) && checkForPoint(string)){
+            if str.length == 0 && text.characterAtIndex(text.length-1) == 46{
+                return true;
+            }
+           return checkForDigit(string);
         }
         return true;
     }
