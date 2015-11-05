@@ -26,9 +26,11 @@ class ViewController: UIViewController, UICollisionBehaviorDelegate {
         var currentCenterPoint = view.center;
         currentCenterPoint.y = 20;
         let eachViewSize = CGSize(width: 50, height: 50);
+        
+        /* create the squerts */
         for counter in 0..<2{
             let newView = UIView(frame: CGRect(x: 0, y: 0, width: eachViewSize.width, height: eachViewSize.height));
-            newView.backgroundColor = colors[counter];
+            newView.backgroundColor = colors[counter%2];
             newView.center = currentCenterPoint;
             currentCenterPoint.y += eachViewSize.height + 10;
             currentCenterPoint.x += 30;
