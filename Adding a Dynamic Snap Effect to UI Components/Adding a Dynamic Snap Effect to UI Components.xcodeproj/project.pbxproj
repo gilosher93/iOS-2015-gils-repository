@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		466F51A01BEB48010007A0B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466F519F1BEB48010007A0B0 /* AppDelegate.swift */; };
+		466F51A21BEB48010007A0B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466F51A11BEB48010007A0B0 /* ViewController.swift */; };
+		466F51A51BEB48010007A0B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466F51A31BEB48010007A0B0 /* Main.storyboard */; };
+		466F51A71BEB48010007A0B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 466F51A61BEB48010007A0B0 /* Assets.xcassets */; };
+		466F51AA1BEB48010007A0B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466F51A81BEB48010007A0B0 /* LaunchScreen.storyboard */; };
+		466F51B51BEB48010007A0B0 /* Adding_a_Dynamic_Snap_Effect_to_UI_ComponentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466F51B41BEB48010007A0B0 /* Adding_a_Dynamic_Snap_Effect_to_UI_ComponentsTests.swift */; };
+		466F51C01BEB48020007A0B0 /* Adding_a_Dynamic_Snap_Effect_to_UI_ComponentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466F51BF1BEB48020007A0B0 /* Adding_a_Dynamic_Snap_Effect_to_UI_ComponentsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		466F51B11BEB48010007A0B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 466F51941BEB48010007A0B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 466F519B1BEB48010007A0B0;
+			remoteInfo = "Adding a Dynamic Snap Effect to UI Components";
+		};
+		466F51BC1BEB48020007A0B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 466F51941BEB48010007A0B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 466F519B1BEB48010007A0B0;
+			remoteInfo = "Adding a Dynamic Snap Effect to UI Components";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		466F519C1BEB48010007A0B0 /* Adding a Dynamic Snap Effect to UI Components.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adding a Dynamic Snap Effect to UI Components.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		466F519F1BEB48010007A0B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		466F51A11BEB48010007A0B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		466F51A41BEB48010007A0B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		466F51A61BEB48010007A0B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		466F51A91BEB48010007A0B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		466F51AB1BEB48010007A0B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		466F51B01BEB48010007A0B0 /* Adding a Dynamic Snap Effect to UI ComponentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Adding a Dynamic Snap Effect to UI ComponentsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		466F51B41BEB48010007A0B0 /* Adding_a_Dynamic_Snap_Effect_to_UI_ComponentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adding_a_Dynamic_Snap_Effect_to_UI_ComponentsTests.swift; sourceTree = "<group>"; };
+		466F51B61BEB48010007A0B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		466F51BB1BEB48020007A0B0 /* Adding a Dynamic Snap Effect to UI ComponentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Adding a Dynamic Snap Effect to UI ComponentsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		466F51BF1BEB48020007A0B0 /* Adding_a_Dynamic_Snap_Effect_to_UI_ComponentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adding_a_Dynamic_Snap_Effect_to_UI_ComponentsUITests.swift; sourceTree = "<group>"; };
+		466F51C11BEB48020007A0B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		466F51991BEB48010007A0B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466F51AD1BEB48010007A0B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466F51B81BEB48020007A0B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		466F51931BEB48010007A0B0 = {
+			isa = PBXGroup;
+			children = (
+				466F519E1BEB48010007A0B0 /* Adding a Dynamic Snap Effect to UI Components */,
+				466F51B31BEB48010007A0B0 /* Adding a Dynamic Snap Effect to UI ComponentsTests */,
+				466F51BE1BEB48020007A0B0 /* Adding a Dynamic Snap Effect to UI ComponentsUITests */,
+				466F519D1BEB48010007A0B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		466F519D1BEB48010007A0B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				466F519C1BEB48010007A0B0 /* Adding a Dynamic Snap Effect to UI Components.app */,
+				466F51B01BEB48010007A0B0 /* Adding a Dynamic Snap Effect to UI ComponentsTests.xctest */,
+				466F51BB1BEB48020007A0B0 /* Adding a Dynamic Snap Effect to UI ComponentsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		466F519E1BEB48010007A0B0 /* Adding a Dynamic Snap Effect to UI Components */ = {
+			isa = PBXGroup;
+			children = (
+				466F519F1BEB48010007A0B0 /* AppDelegate.swift */,
+				466F51A11BEB48010007A0B0 /* ViewController.swift */,
+				466F51A31BEB48010007A0B0 /* Main.storyboard */,
+				466F51A61BEB48010007A0B0 /* Assets.xcassets */,
+				466F51A81BEB48010007A0B0 /* LaunchScreen.storyboard */,
+				466F51AB1BEB48010007A0B0 /* Info.plist */,
+			);
+			path = "Adding a Dynamic Snap Effect to UI Components";
+			sourceTree = "<group>";
+		};
+		466F51B31BEB48010007A0B0 /* Adding a Dynamic Snap Effect to UI ComponentsTests */ = {
+			isa = PBXGroup;
+			children = (
+				466F51B41BEB48010007A0B0 /* Adding_a_Dynamic_Snap_Effect_to_UI_ComponentsTests.swift */,
+				466F51B61BEB48010007A0B0 /* Info.plist */,
+			);
+			path = "Adding a Dynamic Snap Effect to UI ComponentsTests";
+			sourceTree = "<group>";
+		};
+		466F51BE1BEB48020007A0B0 /* Adding a Dynamic Snap Effect to UI ComponentsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				466F51BF1BEB48020007A0B0 /* Adding_a_Dynamic_Snap_Effect_to_UI_ComponentsUITests.swift */,
+				466F51C11BEB48020007A0B0 /* Info.plist */,
+			);
+			path = "Adding a Dynamic Snap Effect to UI ComponentsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		466F519B1BEB48010007A0B0 /* Adding a Dynamic Snap Effect to UI Components */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466F51C41BEB48020007A0B0 /* Build configuration list for PBXNativeTarget "Adding a Dynamic Snap Effect to UI Components" */;
+			buildPhases = (
+				466F51981BEB48010007A0B0 /* Sources */,
+				466F51991BEB48010007A0B0 /* Frameworks */,
+				466F519A1BEB48010007A0B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Adding a Dynamic Snap Effect to UI Components";
+			productName = "Adding a Dynamic Snap Effect to UI Components";
+			productReference = 466F519C1BEB48010007A0B0 /* Adding a Dynamic Snap Effect to UI Components.app */;
+			productType = "com.apple.product-type.application";
+		};
+		466F51AF1BEB48010007A0B0 /* Adding a Dynamic Snap Effect to UI ComponentsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466F51C71BEB48020007A0B0 /* Build configuration list for PBXNativeTarget "Adding a Dynamic Snap Effect to UI ComponentsTests" */;
+			buildPhases = (
+				466F51AC1BEB48010007A0B0 /* Sources */,
+				466F51AD1BEB48010007A0B0 /* Frameworks */,
+				466F51AE1BEB48010007A0B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				466F51B21BEB48010007A0B0 /* PBXTargetDependency */,
+			);
+			name = "Adding a Dynamic Snap Effect to UI ComponentsTests";
+			productName = "Adding a Dynamic Snap Effect to UI ComponentsTests";
+			productReference = 466F51B01BEB48010007A0B0 /* Adding a Dynamic Snap Effect to UI ComponentsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		466F51BA1BEB48020007A0B0 /* Adding a Dynamic Snap Effect to UI ComponentsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466F51CA1BEB48020007A0B0 /* Build configuration list for PBXNativeTarget "Adding a Dynamic Snap Effect to UI ComponentsUITests" */;
+			buildPhases = (
+				466F51B71BEB48020007A0B0 /* Sources */,
+				466F51B81BEB48020007A0B0 /* Frameworks */,
+				466F51B91BEB48020007A0B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				466F51BD1BEB48020007A0B0 /* PBXTargetDependency */,
+			);
+			name = "Adding a Dynamic Snap Effect to UI ComponentsUITests";
+			productName = "Adding a Dynamic Snap Effect to UI ComponentsUITests";
+			productReference = 466F51BB1BEB48020007A0B0 /* Adding a Dynamic Snap Effect to UI ComponentsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		466F51941BEB48010007A0B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "gil osher";
+				TargetAttributes = {
+					466F519B1BEB48010007A0B0 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 3ZM8DXSR64;
+					};
+					466F51AF1BEB48010007A0B0 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 3ZM8DXSR64;
+						TestTargetID = 466F519B1BEB48010007A0B0;
+					};
+					466F51BA1BEB48020007A0B0 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 3ZM8DXSR64;
+						TestTargetID = 466F519B1BEB48010007A0B0;
+					};
+				};
+			};
+			buildConfigurationList = 466F51971BEB48010007A0B0 /* Build configuration list for PBXProject "Adding a Dynamic Snap Effect to UI Components" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 466F51931BEB48010007A0B0;
+			productRefGroup = 466F519D1BEB48010007A0B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				466F519B1BEB48010007A0B0 /* Adding a Dynamic Snap Effect to UI Components */,
+				466F51AF1BEB48010007A0B0 /* Adding a Dynamic Snap Effect to UI ComponentsTests */,
+				466F51BA1BEB48020007A0B0 /* Adding a Dynamic Snap Effect to UI ComponentsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		466F519A1BEB48010007A0B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466F51AA1BEB48010007A0B0 /* LaunchScreen.storyboard in Resources */,
+				466F51A71BEB48010007A0B0 /* Assets.xcassets in Resources */,
+				466F51A51BEB48010007A0B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466F51AE1BEB48010007A0B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466F51B91BEB48020007A0B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		466F51981BEB48010007A0B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466F51A21BEB48010007A0B0 /* ViewController.swift in Sources */,
+				466F51A01BEB48010007A0B0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466F51AC1BEB48010007A0B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466F51B51BEB48010007A0B0 /* Adding_a_Dynamic_Snap_Effect_to_UI_ComponentsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466F51B71BEB48020007A0B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466F51C01BEB48020007A0B0 /* Adding_a_Dynamic_Snap_Effect_to_UI_ComponentsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		466F51B21BEB48010007A0B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 466F519B1BEB48010007A0B0 /* Adding a Dynamic Snap Effect to UI Components */;
+			targetProxy = 466F51B11BEB48010007A0B0 /* PBXContainerItemProxy */;
+		};
+		466F51BD1BEB48020007A0B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 466F519B1BEB48010007A0B0 /* Adding a Dynamic Snap Effect to UI Components */;
+			targetProxy = 466F51BC1BEB48020007A0B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		466F51A31BEB48010007A0B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				466F51A41BEB48010007A0B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		466F51A81BEB48010007A0B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				466F51A91BEB48010007A0B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		466F51C21BEB48020007A0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		466F51C31BEB48020007A0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		466F51C51BEB48020007A0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Adding a Dynamic Snap Effect to UI Components/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Adding-a-Dynamic-Snap-Effect-to-UI-Components";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		466F51C61BEB48020007A0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Adding a Dynamic Snap Effect to UI Components/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Adding-a-Dynamic-Snap-Effect-to-UI-Components";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		466F51C81BEB48020007A0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Adding a Dynamic Snap Effect to UI ComponentsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Adding-a-Dynamic-Snap-Effect-to-UI-ComponentsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adding a Dynamic Snap Effect to UI Components.app/Adding a Dynamic Snap Effect to UI Components";
+			};
+			name = Debug;
+		};
+		466F51C91BEB48020007A0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Adding a Dynamic Snap Effect to UI ComponentsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Adding-a-Dynamic-Snap-Effect-to-UI-ComponentsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adding a Dynamic Snap Effect to UI Components.app/Adding a Dynamic Snap Effect to UI Components";
+			};
+			name = Release;
+		};
+		466F51CB1BEB48020007A0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Adding a Dynamic Snap Effect to UI ComponentsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Adding-a-Dynamic-Snap-Effect-to-UI-ComponentsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Adding a Dynamic Snap Effect to UI Components";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		466F51CC1BEB48020007A0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Adding a Dynamic Snap Effect to UI ComponentsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Adding-a-Dynamic-Snap-Effect-to-UI-ComponentsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Adding a Dynamic Snap Effect to UI Components";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		466F51971BEB48010007A0B0 /* Build configuration list for PBXProject "Adding a Dynamic Snap Effect to UI Components" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466F51C21BEB48020007A0B0 /* Debug */,
+				466F51C31BEB48020007A0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		466F51C41BEB48020007A0B0 /* Build configuration list for PBXNativeTarget "Adding a Dynamic Snap Effect to UI Components" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466F51C51BEB48020007A0B0 /* Debug */,
+				466F51C61BEB48020007A0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		466F51C71BEB48020007A0B0 /* Build configuration list for PBXNativeTarget "Adding a Dynamic Snap Effect to UI ComponentsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466F51C81BEB48020007A0B0 /* Debug */,
+				466F51C91BEB48020007A0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		466F51CA1BEB48020007A0B0 /* Build configuration list for PBXNativeTarget "Adding a Dynamic Snap Effect to UI ComponentsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466F51CB1BEB48020007A0B0 /* Debug */,
+				466F51CC1BEB48020007A0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 466F51941BEB48010007A0B0 /* Project object */;
+}
