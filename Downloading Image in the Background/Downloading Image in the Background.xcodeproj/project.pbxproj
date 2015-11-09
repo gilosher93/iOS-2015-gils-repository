@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		465BBCFA1BF08D7C0074B6FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465BBCF91BF08D7C0074B6FB /* AppDelegate.swift */; };
+		465BBCFC1BF08D7C0074B6FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465BBCFB1BF08D7C0074B6FB /* ViewController.swift */; };
+		465BBCFF1BF08D7C0074B6FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465BBCFD1BF08D7C0074B6FB /* Main.storyboard */; };
+		465BBD011BF08D7C0074B6FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 465BBD001BF08D7C0074B6FB /* Assets.xcassets */; };
+		465BBD041BF08D7C0074B6FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465BBD021BF08D7C0074B6FB /* LaunchScreen.storyboard */; };
+		465BBD0F1BF08D7C0074B6FB /* Downloading_Image_in_the_BackgroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465BBD0E1BF08D7C0074B6FB /* Downloading_Image_in_the_BackgroundTests.swift */; };
+		465BBD1A1BF08D7C0074B6FB /* Downloading_Image_in_the_BackgroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465BBD191BF08D7C0074B6FB /* Downloading_Image_in_the_BackgroundUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		465BBD0B1BF08D7C0074B6FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 465BBCEE1BF08D7C0074B6FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 465BBCF51BF08D7C0074B6FB;
+			remoteInfo = "Downloading Image in the Background";
+		};
+		465BBD161BF08D7C0074B6FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 465BBCEE1BF08D7C0074B6FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 465BBCF51BF08D7C0074B6FB;
+			remoteInfo = "Downloading Image in the Background";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		465BBCF61BF08D7C0074B6FB /* Downloading Image in the Background.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Downloading Image in the Background.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		465BBCF91BF08D7C0074B6FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		465BBCFB1BF08D7C0074B6FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		465BBCFE1BF08D7C0074B6FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		465BBD001BF08D7C0074B6FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		465BBD031BF08D7C0074B6FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		465BBD051BF08D7C0074B6FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		465BBD0A1BF08D7C0074B6FB /* Downloading Image in the BackgroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Downloading Image in the BackgroundTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		465BBD0E1BF08D7C0074B6FB /* Downloading_Image_in_the_BackgroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloading_Image_in_the_BackgroundTests.swift; sourceTree = "<group>"; };
+		465BBD101BF08D7C0074B6FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		465BBD151BF08D7C0074B6FB /* Downloading Image in the BackgroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Downloading Image in the BackgroundUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		465BBD191BF08D7C0074B6FB /* Downloading_Image_in_the_BackgroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloading_Image_in_the_BackgroundUITests.swift; sourceTree = "<group>"; };
+		465BBD1B1BF08D7C0074B6FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		465BBCF31BF08D7C0074B6FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465BBD071BF08D7C0074B6FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465BBD121BF08D7C0074B6FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		465BBCED1BF08D7C0074B6FB = {
+			isa = PBXGroup;
+			children = (
+				465BBCF81BF08D7C0074B6FB /* Downloading Image in the Background */,
+				465BBD0D1BF08D7C0074B6FB /* Downloading Image in the BackgroundTests */,
+				465BBD181BF08D7C0074B6FB /* Downloading Image in the BackgroundUITests */,
+				465BBCF71BF08D7C0074B6FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		465BBCF71BF08D7C0074B6FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				465BBCF61BF08D7C0074B6FB /* Downloading Image in the Background.app */,
+				465BBD0A1BF08D7C0074B6FB /* Downloading Image in the BackgroundTests.xctest */,
+				465BBD151BF08D7C0074B6FB /* Downloading Image in the BackgroundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		465BBCF81BF08D7C0074B6FB /* Downloading Image in the Background */ = {
+			isa = PBXGroup;
+			children = (
+				465BBCF91BF08D7C0074B6FB /* AppDelegate.swift */,
+				465BBCFB1BF08D7C0074B6FB /* ViewController.swift */,
+				465BBCFD1BF08D7C0074B6FB /* Main.storyboard */,
+				465BBD001BF08D7C0074B6FB /* Assets.xcassets */,
+				465BBD021BF08D7C0074B6FB /* LaunchScreen.storyboard */,
+				465BBD051BF08D7C0074B6FB /* Info.plist */,
+			);
+			path = "Downloading Image in the Background";
+			sourceTree = "<group>";
+		};
+		465BBD0D1BF08D7C0074B6FB /* Downloading Image in the BackgroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				465BBD0E1BF08D7C0074B6FB /* Downloading_Image_in_the_BackgroundTests.swift */,
+				465BBD101BF08D7C0074B6FB /* Info.plist */,
+			);
+			path = "Downloading Image in the BackgroundTests";
+			sourceTree = "<group>";
+		};
+		465BBD181BF08D7C0074B6FB /* Downloading Image in the BackgroundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				465BBD191BF08D7C0074B6FB /* Downloading_Image_in_the_BackgroundUITests.swift */,
+				465BBD1B1BF08D7C0074B6FB /* Info.plist */,
+			);
+			path = "Downloading Image in the BackgroundUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		465BBCF51BF08D7C0074B6FB /* Downloading Image in the Background */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 465BBD1E1BF08D7C0074B6FB /* Build configuration list for PBXNativeTarget "Downloading Image in the Background" */;
+			buildPhases = (
+				465BBCF21BF08D7C0074B6FB /* Sources */,
+				465BBCF31BF08D7C0074B6FB /* Frameworks */,
+				465BBCF41BF08D7C0074B6FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Downloading Image in the Background";
+			productName = "Downloading Image in the Background";
+			productReference = 465BBCF61BF08D7C0074B6FB /* Downloading Image in the Background.app */;
+			productType = "com.apple.product-type.application";
+		};
+		465BBD091BF08D7C0074B6FB /* Downloading Image in the BackgroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 465BBD211BF08D7C0074B6FB /* Build configuration list for PBXNativeTarget "Downloading Image in the BackgroundTests" */;
+			buildPhases = (
+				465BBD061BF08D7C0074B6FB /* Sources */,
+				465BBD071BF08D7C0074B6FB /* Frameworks */,
+				465BBD081BF08D7C0074B6FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				465BBD0C1BF08D7C0074B6FB /* PBXTargetDependency */,
+			);
+			name = "Downloading Image in the BackgroundTests";
+			productName = "Downloading Image in the BackgroundTests";
+			productReference = 465BBD0A1BF08D7C0074B6FB /* Downloading Image in the BackgroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		465BBD141BF08D7C0074B6FB /* Downloading Image in the BackgroundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 465BBD241BF08D7C0074B6FB /* Build configuration list for PBXNativeTarget "Downloading Image in the BackgroundUITests" */;
+			buildPhases = (
+				465BBD111BF08D7C0074B6FB /* Sources */,
+				465BBD121BF08D7C0074B6FB /* Frameworks */,
+				465BBD131BF08D7C0074B6FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				465BBD171BF08D7C0074B6FB /* PBXTargetDependency */,
+			);
+			name = "Downloading Image in the BackgroundUITests";
+			productName = "Downloading Image in the BackgroundUITests";
+			productReference = 465BBD151BF08D7C0074B6FB /* Downloading Image in the BackgroundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		465BBCEE1BF08D7C0074B6FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "gil osher";
+				TargetAttributes = {
+					465BBCF51BF08D7C0074B6FB = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 3ZM8DXSR64;
+					};
+					465BBD091BF08D7C0074B6FB = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 3ZM8DXSR64;
+						TestTargetID = 465BBCF51BF08D7C0074B6FB;
+					};
+					465BBD141BF08D7C0074B6FB = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 3ZM8DXSR64;
+						TestTargetID = 465BBCF51BF08D7C0074B6FB;
+					};
+				};
+			};
+			buildConfigurationList = 465BBCF11BF08D7C0074B6FB /* Build configuration list for PBXProject "Downloading Image in the Background" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 465BBCED1BF08D7C0074B6FB;
+			productRefGroup = 465BBCF71BF08D7C0074B6FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				465BBCF51BF08D7C0074B6FB /* Downloading Image in the Background */,
+				465BBD091BF08D7C0074B6FB /* Downloading Image in the BackgroundTests */,
+				465BBD141BF08D7C0074B6FB /* Downloading Image in the BackgroundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		465BBCF41BF08D7C0074B6FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465BBD041BF08D7C0074B6FB /* LaunchScreen.storyboard in Resources */,
+				465BBD011BF08D7C0074B6FB /* Assets.xcassets in Resources */,
+				465BBCFF1BF08D7C0074B6FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465BBD081BF08D7C0074B6FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465BBD131BF08D7C0074B6FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		465BBCF21BF08D7C0074B6FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465BBCFC1BF08D7C0074B6FB /* ViewController.swift in Sources */,
+				465BBCFA1BF08D7C0074B6FB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465BBD061BF08D7C0074B6FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465BBD0F1BF08D7C0074B6FB /* Downloading_Image_in_the_BackgroundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465BBD111BF08D7C0074B6FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465BBD1A1BF08D7C0074B6FB /* Downloading_Image_in_the_BackgroundUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		465BBD0C1BF08D7C0074B6FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 465BBCF51BF08D7C0074B6FB /* Downloading Image in the Background */;
+			targetProxy = 465BBD0B1BF08D7C0074B6FB /* PBXContainerItemProxy */;
+		};
+		465BBD171BF08D7C0074B6FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 465BBCF51BF08D7C0074B6FB /* Downloading Image in the Background */;
+			targetProxy = 465BBD161BF08D7C0074B6FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		465BBCFD1BF08D7C0074B6FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				465BBCFE1BF08D7C0074B6FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		465BBD021BF08D7C0074B6FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				465BBD031BF08D7C0074B6FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		465BBD1C1BF08D7C0074B6FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		465BBD1D1BF08D7C0074B6FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		465BBD1F1BF08D7C0074B6FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Downloading Image in the Background/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Downloading-Image-in-the-Background";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		465BBD201BF08D7C0074B6FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Downloading Image in the Background/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Downloading-Image-in-the-Background";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		465BBD221BF08D7C0074B6FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Downloading Image in the BackgroundTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Downloading-Image-in-the-BackgroundTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Downloading Image in the Background.app/Downloading Image in the Background";
+			};
+			name = Debug;
+		};
+		465BBD231BF08D7C0074B6FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Downloading Image in the BackgroundTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Downloading-Image-in-the-BackgroundTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Downloading Image in the Background.app/Downloading Image in the Background";
+			};
+			name = Release;
+		};
+		465BBD251BF08D7C0074B6FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Downloading Image in the BackgroundUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Downloading-Image-in-the-BackgroundUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Downloading Image in the Background";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		465BBD261BF08D7C0074B6FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Downloading Image in the BackgroundUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Downloading-Image-in-the-BackgroundUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Downloading Image in the Background";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		465BBCF11BF08D7C0074B6FB /* Build configuration list for PBXProject "Downloading Image in the Background" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				465BBD1C1BF08D7C0074B6FB /* Debug */,
+				465BBD1D1BF08D7C0074B6FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		465BBD1E1BF08D7C0074B6FB /* Build configuration list for PBXNativeTarget "Downloading Image in the Background" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				465BBD1F1BF08D7C0074B6FB /* Debug */,
+				465BBD201BF08D7C0074B6FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		465BBD211BF08D7C0074B6FB /* Build configuration list for PBXNativeTarget "Downloading Image in the BackgroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				465BBD221BF08D7C0074B6FB /* Debug */,
+				465BBD231BF08D7C0074B6FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		465BBD241BF08D7C0074B6FB /* Build configuration list for PBXNativeTarget "Downloading Image in the BackgroundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				465BBD251BF08D7C0074B6FB /* Debug */,
+				465BBD261BF08D7C0074B6FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 465BBCEE1BF08D7C0074B6FB /* Project object */;
+}

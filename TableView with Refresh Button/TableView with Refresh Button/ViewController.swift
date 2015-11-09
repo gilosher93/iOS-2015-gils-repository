@@ -8,11 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDataSource {
+class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     var tableView: UITableView?;
     var allTimes = [NSDate]();
     var refreshControl: UIRefreshControl?;
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -22,7 +23,7 @@ class ViewController: UIViewController, UITableViewDataSource {
         if let theTableView = tableView{
             theTableView.registerClass(UITableViewCell.classForCoder(), forCellReuseIdentifier: "identifier");
             theTableView.dataSource = self;
-            
+            theTableView.delegate = self;
             /* Create the refresh control */
             refreshControl = UIRefreshControl();
             refreshControl?.addTarget(self, action: "handleRefresh:", forControlEvents: UIControlEvents.ValueChanged);
@@ -44,6 +45,11 @@ class ViewController: UIViewController, UITableViewDataSource {
     override func prefersStatusBarHidden() -> Bool {
         return true;
     }
+    
+    
+    
+    
+    
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return allTimes.count;
