@@ -14,9 +14,11 @@ class ViewController: UIViewController {
     var y:CGFloat = 20.0;
     var velocityX:CGFloat = 2.0;
     var velocityY:CGFloat = 3.6;
+    
     var imageView: UIImageView!;
     var go = true;
     var button: UIButton!;
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -34,8 +36,9 @@ class ViewController: UIViewController {
         //let delayInNanoSeconds = dispatch_time(DISPATCH_TIME_NOW, Int64(delayInSeconds * Double(NSEC_PER_SEC)))
         
         //let queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+        
         print("start");
-        doSomething(0.001) { () -> Void in
+        doSomething(0.01) { () -> Void in
             dispatch_async(dispatch_get_main_queue(), { [weak self]() -> Void in
                 self!.imageView.frame.origin = CGPoint(x: self!.x, y: self!.y);
                 self!.x += self!.velocityX;
@@ -55,13 +58,13 @@ class ViewController: UIViewController {
 
     
     
-    func doSomething(timeToRepit: Double, code: ()->Void){
-        let delayInNanoSeconds = dispatch_time(DISPATCH_TIME_NOW, Int64(timeToRepit * Double(NSEC_PER_SEC)));
+    func doSomething(timeToRepeat: Double, code: ()->Void){
+        let delayInNanoSeconds = dispatch_time(DISPATCH_TIME_NOW, Int64(timeToRepeat * Double(NSEC_PER_SEC)));
         let queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
         dispatch_after(delayInNanoSeconds, queue, { [weak self]() -> Void in
             code();
             if(self!.go){
-                self!.doSomething(timeToRepit, code: code);
+                self!.doSomething(timeToRepeat, code: code);
             }
         })
         

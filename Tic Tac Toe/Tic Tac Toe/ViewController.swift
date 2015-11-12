@@ -58,8 +58,8 @@ class ViewController: UIViewController {
         pointsTitle = UILabel(frame: CGRect(x: view.frame.width/2, y: resetButton.frame.origin.y, width: 100, height: 30))
         pointsTitle.text = "ניקוד"
         view.addSubview(pointsTitle);
-        pointsResults = UILabel(frame: CGRect(x: (view.frame.width - 75) / 2, y: pointsTitle.frame.maxY, width: 150, height: 30))
-        pointsResults.text = "X : \(xPoints)      O : \(oPoints)";
+        pointsResults = UILabel(frame: CGRect(x: 80, y: pointsTitle.frame.maxY, width: view.frame.width, height: 30))
+        pointsResults.text = "Apple : \(xPoints)      Windows : \(oPoints)";
         view.addSubview(pointsResults);
     }
     
@@ -73,16 +73,16 @@ class ViewController: UIViewController {
             buttons.append(UIButton(type: UIButtonType.Custom));
             buttons[i] = UIButton(type: UIButtonType.Custom);
             if(i%3 == 0){
-                boardX = 15;
+                boardX = 20;
             }else{
-                boardX += 100
+                boardX += 103;
             }
             if(i/3 == 0){
-                boardY = 100;
+                boardY = 90;
             }else if(i/3 == 1){
                 boardY = 190
             }else{
-                boardY = 280;
+                boardY = 290;
             }
             buttons[i].frame = CGRect(x: boardX, y: boardY, width: 80, height: 80);
             buttons[i].tag = i;
@@ -97,17 +97,17 @@ class ViewController: UIViewController {
         if moveResult == TicTacToe.MoveResult.INVALID_MOVE{
             presentViewController(invalidMove, animated: true, completion: nil);
         }else{
-            let value = game.isXturn == true ? "x" : "o";
+            let value = game.isXturn == true ? "windows" : "apple";
             sender.setBackgroundImage(UIImage(named: value), forState: UIControlState.Normal);
             if moveResult != TicTacToe.MoveResult.VALID_MOVE{
                 if moveResult == TicTacToe.MoveResult.VICTORY{
                     gameOverController.message = "המנצח הוא " + value + " !";
-                    if(value == "x"){
+                    if(value == "apple"){
                         xPoints++;
                     }else{
                         oPoints++;
                     }
-                    pointsResults.text = "X : \(xPoints)      O : \(oPoints)";
+                    pointsResults.text = "Apple : \(xPoints)      Windows : \(oPoints)";
                 }else{
                     gameOverController.message = "יש לנו תיקו!";
                 }
