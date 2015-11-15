@@ -2,25 +2,40 @@
 //  ViewController.swift
 //  Handling Location Changes in the Background
 //
-//  Created by גיל אושר on 12.11.2015.
-//  Copyright © 2015 gil osher. All rights reserved.
+//  Created by Elad Lavi on 12/11/2015.
+//  Copyright © 2015 Elad Lavi. All rights reserved.
 //
 
 import UIKit
-import CoreLocation;
+
+
 
 class ViewController: UIViewController {
+
     
-    var locationManager: CLLocationManager;
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        //let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate;
+        
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "handleNewLocation:", name: "locationUpdated", object: nil);
+        
+        
+    }
+    
+    func handleNewLocation(notification: NSNotification){
+        print("lat: \(notification.userInfo!["lat"]), longitude: \(notification.userInfo!["long"])");
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    deinit{
+        NSNotificationCenter.defaultCenter().removeObserver(self);
     }
 
 

@@ -2,8 +2,8 @@
 //  Handling_Location_Changes_in_the_BackgroundTests.swift
 //  Handling Location Changes in the BackgroundTests
 //
-//  Created by גיל אושר on 12.11.2015.
-//  Copyright © 2015 gil osher. All rights reserved.
+//  Created by Elad Lavi on 12/11/2015.
+//  Copyright © 2015 Elad Lavi. All rights reserved.
 //
 
 import XCTest

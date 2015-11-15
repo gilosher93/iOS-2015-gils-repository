@@ -7,64 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46CC69F91BF4D28100369D89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CC69F81BF4D28100369D89 /* AppDelegate.swift */; };
-		46CC69FB1BF4D28100369D89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CC69FA1BF4D28100369D89 /* ViewController.swift */; };
-		46CC69FE1BF4D28100369D89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46CC69FC1BF4D28100369D89 /* Main.storyboard */; };
-		46CC6A001BF4D28100369D89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46CC69FF1BF4D28100369D89 /* Assets.xcassets */; };
-		46CC6A031BF4D28100369D89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46CC6A011BF4D28100369D89 /* LaunchScreen.storyboard */; };
-		46CC6A0E1BF4D28100369D89 /* Handling_Location_Changes_in_the_BackgroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CC6A0D1BF4D28100369D89 /* Handling_Location_Changes_in_the_BackgroundTests.swift */; };
-		46CC6A191BF4D28100369D89 /* Handling_Location_Changes_in_the_BackgroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CC6A181BF4D28100369D89 /* Handling_Location_Changes_in_the_BackgroundUITests.swift */; };
+		51A5A6491BF4D1E400608F07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A5A6481BF4D1E400608F07 /* AppDelegate.swift */; };
+		51A5A64B1BF4D1E400608F07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A5A64A1BF4D1E400608F07 /* ViewController.swift */; };
+		51A5A64E1BF4D1E400608F07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51A5A64C1BF4D1E400608F07 /* Main.storyboard */; };
+		51A5A6501BF4D1E400608F07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51A5A64F1BF4D1E400608F07 /* Assets.xcassets */; };
+		51A5A6531BF4D1E400608F07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51A5A6511BF4D1E400608F07 /* LaunchScreen.storyboard */; };
+		51A5A65E1BF4D1E400608F07 /* Handling_Location_Changes_in_the_BackgroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A5A65D1BF4D1E400608F07 /* Handling_Location_Changes_in_the_BackgroundTests.swift */; };
+		51A5A6691BF4D1E400608F07 /* Handling_Location_Changes_in_the_BackgroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A5A6681BF4D1E400608F07 /* Handling_Location_Changes_in_the_BackgroundUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		46CC6A0A1BF4D28100369D89 /* PBXContainerItemProxy */ = {
+		51A5A65A1BF4D1E400608F07 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 46CC69ED1BF4D28100369D89 /* Project object */;
+			containerPortal = 51A5A63D1BF4D1E400608F07 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 46CC69F41BF4D28100369D89;
+			remoteGlobalIDString = 51A5A6441BF4D1E400608F07;
 			remoteInfo = "Handling Location Changes in the Background";
 		};
-		46CC6A151BF4D28100369D89 /* PBXContainerItemProxy */ = {
+		51A5A6651BF4D1E400608F07 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 46CC69ED1BF4D28100369D89 /* Project object */;
+			containerPortal = 51A5A63D1BF4D1E400608F07 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 46CC69F41BF4D28100369D89;
+			remoteGlobalIDString = 51A5A6441BF4D1E400608F07;
 			remoteInfo = "Handling Location Changes in the Background";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		46CC69F51BF4D28100369D89 /* Handling Location Changes in the Background.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Handling Location Changes in the Background.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		46CC69F81BF4D28100369D89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		46CC69FA1BF4D28100369D89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		46CC69FD1BF4D28100369D89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		46CC69FF1BF4D28100369D89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		46CC6A021BF4D28100369D89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		46CC6A041BF4D28100369D89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46CC6A091BF4D28100369D89 /* Handling Location Changes in the BackgroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Handling Location Changes in the BackgroundTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		46CC6A0D1BF4D28100369D89 /* Handling_Location_Changes_in_the_BackgroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handling_Location_Changes_in_the_BackgroundTests.swift; sourceTree = "<group>"; };
-		46CC6A0F1BF4D28100369D89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46CC6A141BF4D28100369D89 /* Handling Location Changes in the BackgroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Handling Location Changes in the BackgroundUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		46CC6A181BF4D28100369D89 /* Handling_Location_Changes_in_the_BackgroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handling_Location_Changes_in_the_BackgroundUITests.swift; sourceTree = "<group>"; };
-		46CC6A1A1BF4D28100369D89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51A5A6451BF4D1E400608F07 /* Handling Location Changes in the Background.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Handling Location Changes in the Background.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51A5A6481BF4D1E400608F07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		51A5A64A1BF4D1E400608F07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		51A5A64D1BF4D1E400608F07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		51A5A64F1BF4D1E400608F07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51A5A6521BF4D1E400608F07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		51A5A6541BF4D1E400608F07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51A5A6591BF4D1E400608F07 /* Handling Location Changes in the BackgroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Handling Location Changes in the BackgroundTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51A5A65D1BF4D1E400608F07 /* Handling_Location_Changes_in_the_BackgroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handling_Location_Changes_in_the_BackgroundTests.swift; sourceTree = "<group>"; };
+		51A5A65F1BF4D1E400608F07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51A5A6641BF4D1E400608F07 /* Handling Location Changes in the BackgroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Handling Location Changes in the BackgroundUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51A5A6681BF4D1E400608F07 /* Handling_Location_Changes_in_the_BackgroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handling_Location_Changes_in_the_BackgroundUITests.swift; sourceTree = "<group>"; };
+		51A5A66A1BF4D1E400608F07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		46CC69F21BF4D28100369D89 /* Frameworks */ = {
+		51A5A6421BF4D1E400608F07 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46CC6A061BF4D28100369D89 /* Frameworks */ = {
+		51A5A6561BF4D1E400608F07 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46CC6A111BF4D28100369D89 /* Frameworks */ = {
+		51A5A6611BF4D1E400608F07 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,53 +74,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		46CC69EC1BF4D28100369D89 = {
+		51A5A63C1BF4D1E400608F07 = {
 			isa = PBXGroup;
 			children = (
-				46CC69F71BF4D28100369D89 /* Handling Location Changes in the Background */,
-				46CC6A0C1BF4D28100369D89 /* Handling Location Changes in the BackgroundTests */,
-				46CC6A171BF4D28100369D89 /* Handling Location Changes in the BackgroundUITests */,
-				46CC69F61BF4D28100369D89 /* Products */,
+				51A5A6471BF4D1E400608F07 /* Handling Location Changes in the Background */,
+				51A5A65C1BF4D1E400608F07 /* Handling Location Changes in the BackgroundTests */,
+				51A5A6671BF4D1E400608F07 /* Handling Location Changes in the BackgroundUITests */,
+				51A5A6461BF4D1E400608F07 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		46CC69F61BF4D28100369D89 /* Products */ = {
+		51A5A6461BF4D1E400608F07 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				46CC69F51BF4D28100369D89 /* Handling Location Changes in the Background.app */,
-				46CC6A091BF4D28100369D89 /* Handling Location Changes in the BackgroundTests.xctest */,
-				46CC6A141BF4D28100369D89 /* Handling Location Changes in the BackgroundUITests.xctest */,
+				51A5A6451BF4D1E400608F07 /* Handling Location Changes in the Background.app */,
+				51A5A6591BF4D1E400608F07 /* Handling Location Changes in the BackgroundTests.xctest */,
+				51A5A6641BF4D1E400608F07 /* Handling Location Changes in the BackgroundUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		46CC69F71BF4D28100369D89 /* Handling Location Changes in the Background */ = {
+		51A5A6471BF4D1E400608F07 /* Handling Location Changes in the Background */ = {
 			isa = PBXGroup;
 			children = (
-				46CC69F81BF4D28100369D89 /* AppDelegate.swift */,
-				46CC69FA1BF4D28100369D89 /* ViewController.swift */,
-				46CC69FC1BF4D28100369D89 /* Main.storyboard */,
-				46CC69FF1BF4D28100369D89 /* Assets.xcassets */,
-				46CC6A011BF4D28100369D89 /* LaunchScreen.storyboard */,
-				46CC6A041BF4D28100369D89 /* Info.plist */,
+				51A5A6481BF4D1E400608F07 /* AppDelegate.swift */,
+				51A5A64A1BF4D1E400608F07 /* ViewController.swift */,
+				51A5A64C1BF4D1E400608F07 /* Main.storyboard */,
+				51A5A64F1BF4D1E400608F07 /* Assets.xcassets */,
+				51A5A6511BF4D1E400608F07 /* LaunchScreen.storyboard */,
+				51A5A6541BF4D1E400608F07 /* Info.plist */,
 			);
 			path = "Handling Location Changes in the Background";
 			sourceTree = "<group>";
 		};
-		46CC6A0C1BF4D28100369D89 /* Handling Location Changes in the BackgroundTests */ = {
+		51A5A65C1BF4D1E400608F07 /* Handling Location Changes in the BackgroundTests */ = {
 			isa = PBXGroup;
 			children = (
-				46CC6A0D1BF4D28100369D89 /* Handling_Location_Changes_in_the_BackgroundTests.swift */,
-				46CC6A0F1BF4D28100369D89 /* Info.plist */,
+				51A5A65D1BF4D1E400608F07 /* Handling_Location_Changes_in_the_BackgroundTests.swift */,
+				51A5A65F1BF4D1E400608F07 /* Info.plist */,
 			);
 			path = "Handling Location Changes in the BackgroundTests";
 			sourceTree = "<group>";
 		};
-		46CC6A171BF4D28100369D89 /* Handling Location Changes in the BackgroundUITests */ = {
+		51A5A6671BF4D1E400608F07 /* Handling Location Changes in the BackgroundUITests */ = {
 			isa = PBXGroup;
 			children = (
-				46CC6A181BF4D28100369D89 /* Handling_Location_Changes_in_the_BackgroundUITests.swift */,
-				46CC6A1A1BF4D28100369D89 /* Info.plist */,
+				51A5A6681BF4D1E400608F07 /* Handling_Location_Changes_in_the_BackgroundUITests.swift */,
+				51A5A66A1BF4D1E400608F07 /* Info.plist */,
 			);
 			path = "Handling Location Changes in the BackgroundUITests";
 			sourceTree = "<group>";
@@ -128,13 +128,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		46CC69F41BF4D28100369D89 /* Handling Location Changes in the Background */ = {
+		51A5A6441BF4D1E400608F07 /* Handling Location Changes in the Background */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46CC6A1D1BF4D28100369D89 /* Build configuration list for PBXNativeTarget "Handling Location Changes in the Background" */;
+			buildConfigurationList = 51A5A66D1BF4D1E400608F07 /* Build configuration list for PBXNativeTarget "Handling Location Changes in the Background" */;
 			buildPhases = (
-				46CC69F11BF4D28100369D89 /* Sources */,
-				46CC69F21BF4D28100369D89 /* Frameworks */,
-				46CC69F31BF4D28100369D89 /* Resources */,
+				51A5A6411BF4D1E400608F07 /* Sources */,
+				51A5A6421BF4D1E400608F07 /* Frameworks */,
+				51A5A6431BF4D1E400608F07 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -142,72 +142,77 @@
 			);
 			name = "Handling Location Changes in the Background";
 			productName = "Handling Location Changes in the Background";
-			productReference = 46CC69F51BF4D28100369D89 /* Handling Location Changes in the Background.app */;
+			productReference = 51A5A6451BF4D1E400608F07 /* Handling Location Changes in the Background.app */;
 			productType = "com.apple.product-type.application";
 		};
-		46CC6A081BF4D28100369D89 /* Handling Location Changes in the BackgroundTests */ = {
+		51A5A6581BF4D1E400608F07 /* Handling Location Changes in the BackgroundTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46CC6A201BF4D28100369D89 /* Build configuration list for PBXNativeTarget "Handling Location Changes in the BackgroundTests" */;
+			buildConfigurationList = 51A5A6701BF4D1E400608F07 /* Build configuration list for PBXNativeTarget "Handling Location Changes in the BackgroundTests" */;
 			buildPhases = (
-				46CC6A051BF4D28100369D89 /* Sources */,
-				46CC6A061BF4D28100369D89 /* Frameworks */,
-				46CC6A071BF4D28100369D89 /* Resources */,
+				51A5A6551BF4D1E400608F07 /* Sources */,
+				51A5A6561BF4D1E400608F07 /* Frameworks */,
+				51A5A6571BF4D1E400608F07 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				46CC6A0B1BF4D28100369D89 /* PBXTargetDependency */,
+				51A5A65B1BF4D1E400608F07 /* PBXTargetDependency */,
 			);
 			name = "Handling Location Changes in the BackgroundTests";
 			productName = "Handling Location Changes in the BackgroundTests";
-			productReference = 46CC6A091BF4D28100369D89 /* Handling Location Changes in the BackgroundTests.xctest */;
+			productReference = 51A5A6591BF4D1E400608F07 /* Handling Location Changes in the BackgroundTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		46CC6A131BF4D28100369D89 /* Handling Location Changes in the BackgroundUITests */ = {
+		51A5A6631BF4D1E400608F07 /* Handling Location Changes in the BackgroundUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46CC6A231BF4D28100369D89 /* Build configuration list for PBXNativeTarget "Handling Location Changes in the BackgroundUITests" */;
+			buildConfigurationList = 51A5A6731BF4D1E400608F07 /* Build configuration list for PBXNativeTarget "Handling Location Changes in the BackgroundUITests" */;
 			buildPhases = (
-				46CC6A101BF4D28100369D89 /* Sources */,
-				46CC6A111BF4D28100369D89 /* Frameworks */,
-				46CC6A121BF4D28100369D89 /* Resources */,
+				51A5A6601BF4D1E400608F07 /* Sources */,
+				51A5A6611BF4D1E400608F07 /* Frameworks */,
+				51A5A6621BF4D1E400608F07 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				46CC6A161BF4D28100369D89 /* PBXTargetDependency */,
+				51A5A6661BF4D1E400608F07 /* PBXTargetDependency */,
 			);
 			name = "Handling Location Changes in the BackgroundUITests";
 			productName = "Handling Location Changes in the BackgroundUITests";
-			productReference = 46CC6A141BF4D28100369D89 /* Handling Location Changes in the BackgroundUITests.xctest */;
+			productReference = 51A5A6641BF4D1E400608F07 /* Handling Location Changes in the BackgroundUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		46CC69ED1BF4D28100369D89 /* Project object */ = {
+		51A5A63D1BF4D1E400608F07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0710;
-				ORGANIZATIONNAME = "gil osher";
+				ORGANIZATIONNAME = "Elad Lavi";
 				TargetAttributes = {
-					46CC69F41BF4D28100369D89 = {
+					51A5A6441BF4D1E400608F07 = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = 3ZM8DXSR64;
+						DevelopmentTeam = 2HUWCUX77Z;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
-					46CC6A081BF4D28100369D89 = {
+					51A5A6581BF4D1E400608F07 = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = 3ZM8DXSR64;
-						TestTargetID = 46CC69F41BF4D28100369D89;
+						DevelopmentTeam = 2HUWCUX77Z;
+						TestTargetID = 51A5A6441BF4D1E400608F07;
 					};
-					46CC6A131BF4D28100369D89 = {
+					51A5A6631BF4D1E400608F07 = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = 3ZM8DXSR64;
-						TestTargetID = 46CC69F41BF4D28100369D89;
+						DevelopmentTeam = 2HUWCUX77Z;
+						TestTargetID = 51A5A6441BF4D1E400608F07;
 					};
 				};
 			};
-			buildConfigurationList = 46CC69F01BF4D28100369D89 /* Build configuration list for PBXProject "Handling Location Changes in the Background" */;
+			buildConfigurationList = 51A5A6401BF4D1E400608F07 /* Build configuration list for PBXProject "Handling Location Changes in the Background" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -215,37 +220,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 46CC69EC1BF4D28100369D89;
-			productRefGroup = 46CC69F61BF4D28100369D89 /* Products */;
+			mainGroup = 51A5A63C1BF4D1E400608F07;
+			productRefGroup = 51A5A6461BF4D1E400608F07 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				46CC69F41BF4D28100369D89 /* Handling Location Changes in the Background */,
-				46CC6A081BF4D28100369D89 /* Handling Location Changes in the BackgroundTests */,
-				46CC6A131BF4D28100369D89 /* Handling Location Changes in the BackgroundUITests */,
+				51A5A6441BF4D1E400608F07 /* Handling Location Changes in the Background */,
+				51A5A6581BF4D1E400608F07 /* Handling Location Changes in the BackgroundTests */,
+				51A5A6631BF4D1E400608F07 /* Handling Location Changes in the BackgroundUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		46CC69F31BF4D28100369D89 /* Resources */ = {
+		51A5A6431BF4D1E400608F07 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46CC6A031BF4D28100369D89 /* LaunchScreen.storyboard in Resources */,
-				46CC6A001BF4D28100369D89 /* Assets.xcassets in Resources */,
-				46CC69FE1BF4D28100369D89 /* Main.storyboard in Resources */,
+				51A5A6531BF4D1E400608F07 /* LaunchScreen.storyboard in Resources */,
+				51A5A6501BF4D1E400608F07 /* Assets.xcassets in Resources */,
+				51A5A64E1BF4D1E400608F07 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46CC6A071BF4D28100369D89 /* Resources */ = {
+		51A5A6571BF4D1E400608F07 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46CC6A121BF4D28100369D89 /* Resources */ = {
+		51A5A6621BF4D1E400608F07 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,59 +260,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		46CC69F11BF4D28100369D89 /* Sources */ = {
+		51A5A6411BF4D1E400608F07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46CC69FB1BF4D28100369D89 /* ViewController.swift in Sources */,
-				46CC69F91BF4D28100369D89 /* AppDelegate.swift in Sources */,
+				51A5A64B1BF4D1E400608F07 /* ViewController.swift in Sources */,
+				51A5A6491BF4D1E400608F07 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46CC6A051BF4D28100369D89 /* Sources */ = {
+		51A5A6551BF4D1E400608F07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46CC6A0E1BF4D28100369D89 /* Handling_Location_Changes_in_the_BackgroundTests.swift in Sources */,
+				51A5A65E1BF4D1E400608F07 /* Handling_Location_Changes_in_the_BackgroundTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46CC6A101BF4D28100369D89 /* Sources */ = {
+		51A5A6601BF4D1E400608F07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46CC6A191BF4D28100369D89 /* Handling_Location_Changes_in_the_BackgroundUITests.swift in Sources */,
+				51A5A6691BF4D1E400608F07 /* Handling_Location_Changes_in_the_BackgroundUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		46CC6A0B1BF4D28100369D89 /* PBXTargetDependency */ = {
+		51A5A65B1BF4D1E400608F07 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 46CC69F41BF4D28100369D89 /* Handling Location Changes in the Background */;
-			targetProxy = 46CC6A0A1BF4D28100369D89 /* PBXContainerItemProxy */;
+			target = 51A5A6441BF4D1E400608F07 /* Handling Location Changes in the Background */;
+			targetProxy = 51A5A65A1BF4D1E400608F07 /* PBXContainerItemProxy */;
 		};
-		46CC6A161BF4D28100369D89 /* PBXTargetDependency */ = {
+		51A5A6661BF4D1E400608F07 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 46CC69F41BF4D28100369D89 /* Handling Location Changes in the Background */;
-			targetProxy = 46CC6A151BF4D28100369D89 /* PBXContainerItemProxy */;
+			target = 51A5A6441BF4D1E400608F07 /* Handling Location Changes in the Background */;
+			targetProxy = 51A5A6651BF4D1E400608F07 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		46CC69FC1BF4D28100369D89 /* Main.storyboard */ = {
+		51A5A64C1BF4D1E400608F07 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				46CC69FD1BF4D28100369D89 /* Base */,
+				51A5A64D1BF4D1E400608F07 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		46CC6A011BF4D28100369D89 /* LaunchScreen.storyboard */ = {
+		51A5A6511BF4D1E400608F07 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				46CC6A021BF4D28100369D89 /* Base */,
+				51A5A6521BF4D1E400608F07 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -315,7 +320,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		46CC6A1B1BF4D28100369D89 /* Debug */ = {
+		51A5A66B1BF4D1E400608F07 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -359,7 +364,7 @@
 			};
 			name = Debug;
 		};
-		46CC6A1C1BF4D28100369D89 /* Release */ = {
+		51A5A66C1BF4D1E400608F07 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -396,70 +401,72 @@
 			};
 			name = Release;
 		};
-		46CC6A1E1BF4D28100369D89 /* Debug */ = {
+		51A5A66E1BF4D1E400608F07 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Handling Location Changes in the Background/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "example.Handling-Location-Changes-in-the-Background";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Handling-Location-Changes-in-the-Background";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		46CC6A1F1BF4D28100369D89 /* Release */ = {
+		51A5A66F1BF4D1E400608F07 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Handling Location Changes in the Background/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "example.Handling-Location-Changes-in-the-Background";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Handling-Location-Changes-in-the-Background";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		46CC6A211BF4D28100369D89 /* Debug */ = {
+		51A5A6711BF4D1E400608F07 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Handling Location Changes in the BackgroundTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "example.Handling-Location-Changes-in-the-BackgroundTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Handling-Location-Changes-in-the-BackgroundTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Handling Location Changes in the Background.app/Handling Location Changes in the Background";
 			};
 			name = Debug;
 		};
-		46CC6A221BF4D28100369D89 /* Release */ = {
+		51A5A6721BF4D1E400608F07 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Handling Location Changes in the BackgroundTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "example.Handling-Location-Changes-in-the-BackgroundTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Handling-Location-Changes-in-the-BackgroundTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Handling Location Changes in the Background.app/Handling Location Changes in the Background";
 			};
 			name = Release;
 		};
-		46CC6A241BF4D28100369D89 /* Debug */ = {
+		51A5A6741BF4D1E400608F07 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "Handling Location Changes in the BackgroundUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "example.Handling-Location-Changes-in-the-BackgroundUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Handling-Location-Changes-in-the-BackgroundUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = "Handling Location Changes in the Background";
 				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
 		};
-		46CC6A251BF4D28100369D89 /* Release */ = {
+		51A5A6751BF4D1E400608F07 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "Handling Location Changes in the BackgroundUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "example.Handling-Location-Changes-in-the-BackgroundUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Handling-Location-Changes-in-the-BackgroundUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = "Handling Location Changes in the Background";
 				USES_XCTRUNNER = YES;
@@ -469,40 +476,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		46CC69F01BF4D28100369D89 /* Build configuration list for PBXProject "Handling Location Changes in the Background" */ = {
+		51A5A6401BF4D1E400608F07 /* Build configuration list for PBXProject "Handling Location Changes in the Background" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46CC6A1B1BF4D28100369D89 /* Debug */,
-				46CC6A1C1BF4D28100369D89 /* Release */,
+				51A5A66B1BF4D1E400608F07 /* Debug */,
+				51A5A66C1BF4D1E400608F07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46CC6A1D1BF4D28100369D89 /* Build configuration list for PBXNativeTarget "Handling Location Changes in the Background" */ = {
+		51A5A66D1BF4D1E400608F07 /* Build configuration list for PBXNativeTarget "Handling Location Changes in the Background" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46CC6A1E1BF4D28100369D89 /* Debug */,
-				46CC6A1F1BF4D28100369D89 /* Release */,
+				51A5A66E1BF4D1E400608F07 /* Debug */,
+				51A5A66F1BF4D1E400608F07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		46CC6A201BF4D28100369D89 /* Build configuration list for PBXNativeTarget "Handling Location Changes in the BackgroundTests" */ = {
+		51A5A6701BF4D1E400608F07 /* Build configuration list for PBXNativeTarget "Handling Location Changes in the BackgroundTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46CC6A211BF4D28100369D89 /* Debug */,
-				46CC6A221BF4D28100369D89 /* Release */,
+				51A5A6711BF4D1E400608F07 /* Debug */,
+				51A5A6721BF4D1E400608F07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		46CC6A231BF4D28100369D89 /* Build configuration list for PBXNativeTarget "Handling Location Changes in the BackgroundUITests" */ = {
+		51A5A6731BF4D1E400608F07 /* Build configuration list for PBXNativeTarget "Handling Location Changes in the BackgroundUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46CC6A241BF4D28100369D89 /* Debug */,
-				46CC6A251BF4D28100369D89 /* Release */,
+				51A5A6741BF4D1E400608F07 /* Debug */,
+				51A5A6751BF4D1E400608F07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 46CC69ED1BF4D28100369D89 /* Project object */;
+	rootObject = 51A5A63D1BF4D1E400608F07 /* Project object */;
 }
