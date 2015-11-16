@@ -14,9 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     var newsItems = [NewsItem]();
     
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        newsItems.append(NewsItem(date: NSDate(), text: "News Item 1"));
         
         application.setMinimumBackgroundFetchInterval(UIApplicationBackgroundFetchIntervalMinimum);
         
@@ -34,10 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func fetchNewsItem()->Bool{
         let item = NewsItem(date: NSDate(), text: "News Item \(newsItems.count + 1)");
         newsItems.append(item);
-        
         NSNotificationCenter.defaultCenter().postNotificationName(AppDelegate.newsItemsChangedNotification, object: nil);
-        
-        
         
         return true;
         

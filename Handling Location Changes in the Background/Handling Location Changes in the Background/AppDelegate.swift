@@ -19,7 +19,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        
         locationManager = CLLocationManager();
         locationManager.desiredAccuracy = kCLLocationAccuracyBest;
         locationManager.delegate = self;
@@ -34,7 +33,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
 
     func applicationDidEnterBackground(application: UIApplication) {
         isExecutingInBackground = true;
-        locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters;
+        locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters; //CPU is lower
     }
 
     func applicationWillEnterForeground(application: UIApplication) {
