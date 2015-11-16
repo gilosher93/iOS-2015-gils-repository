@@ -26,10 +26,10 @@ class ViewController: UIViewController, LocationDelegate, MKMapViewDelegate {
     }
     
     func locationChanged(latitude: Double, longitude: Double) {
-        if myAnnotation != nil{
+        /*if myAnnotation != nil{
             mapView.removeAnnotation(myAnnotation);
             addPinToMapView(latitude, longitude: longitude);
-        }
+        }*/
     }
     
     func setCenterOfMapToLocation(location: CLLocationCoordinate2D){
@@ -41,8 +41,29 @@ class ViewController: UIViewController, LocationDelegate, MKMapViewDelegate {
     func addPinToMapView(latitude: Double, longitude: Double){
         let location = CLLocationCoordinate2D(latitude: latitude , longitude: longitude);
         myAnnotation = MyAnnotation(coordinate: location, title: "גיל אושר", subTitle: "2 משלוחים פעילים");
+        
         mapView.addAnnotation(myAnnotation);
         setCenterOfMapToLocation(location);
+    }
+    
+    func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
+        if !(annotation is MyAnnotation){
+            return nil;
+        }
+        let senderAnnotation = annotation as! MyAnnotation;
+        let pinReusableIdentifier = senderAnnotation.pinColor.description;
+        var annotationView = mapView.dequeueReusableAnnotationViewWithIdentifier(pinReusableIdentifier) as? MKPinAnnotationView;
+        if annotationView == nil{
+            annotationView = MKPinAnnotationView(annotation: senderAnnotation, reuseIdentifier: pinReusableIdentifier);
+            annotationView!.canShowCallout = true;
+        }
+        if senderAnnotation.pinColor != UIColor.blueColor(){
+            let pinImage = UIImage(named: "red_button");
+            annotationView!.image = pinImage;
+        }else{
+            annotationView!.pinTintColor = senderAnnotation.pinColor;
+        }
+        return annotationView;
     }
     
     override func didReceiveMemoryWarning() {
