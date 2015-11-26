@@ -34,9 +34,9 @@ class ViewController: UIViewController , NSURLSessionDelegate , NSURLSessionData
             
         }
         
+        let ip = "10.0.0.92";
         
-        
-        let url = NSURL(string: "http://10.0.0.92:8080/MainServlet");
+        let url = NSURL(string: "http:// \(ip):8080/MainServlet");
         
         let request = NSMutableURLRequest(URL: url!);
         request.HTTPMethod = "POST"; //the defult is GET

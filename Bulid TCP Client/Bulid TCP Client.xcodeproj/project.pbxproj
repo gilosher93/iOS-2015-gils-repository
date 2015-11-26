@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46A0E6C61C070C4800D83FA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A0E6C51C070C4800D83FA3 /* AppDelegate.swift */; };
+		46A0E6C81C070C4800D83FA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A0E6C71C070C4800D83FA3 /* ViewController.swift */; };
+		46A0E6CB1C070C4800D83FA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46A0E6C91C070C4800D83FA3 /* Main.storyboard */; };
+		46A0E6CD1C070C4800D83FA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46A0E6CC1C070C4800D83FA3 /* Assets.xcassets */; };
+		46A0E6D01C070C4800D83FA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46A0E6CE1C070C4800D83FA3 /* LaunchScreen.storyboard */; };
+		46A0E6DB1C070C4800D83FA3 /* Bulid_TCP_ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A0E6DA1C070C4800D83FA3 /* Bulid_TCP_ClientTests.swift */; };
+		46A0E6E61C070C4800D83FA3 /* Bulid_TCP_ClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A0E6E51C070C4800D83FA3 /* Bulid_TCP_ClientUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46A0E6D71C070C4800D83FA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46A0E6BA1C070C4800D83FA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46A0E6C11C070C4800D83FA3;
+			remoteInfo = "Bulid TCP Client";
+		};
+		46A0E6E21C070C4800D83FA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46A0E6BA1C070C4800D83FA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46A0E6C11C070C4800D83FA3;
+			remoteInfo = "Bulid TCP Client";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46A0E6C21C070C4800D83FA3 /* Bulid TCP Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bulid TCP Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46A0E6C51C070C4800D83FA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46A0E6C71C070C4800D83FA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46A0E6CA1C070C4800D83FA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46A0E6CC1C070C4800D83FA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46A0E6CF1C070C4800D83FA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46A0E6D11C070C4800D83FA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46A0E6D61C070C4800D83FA3 /* Bulid TCP ClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bulid TCP ClientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46A0E6DA1C070C4800D83FA3 /* Bulid_TCP_ClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bulid_TCP_ClientTests.swift; sourceTree = "<group>"; };
+		46A0E6DC1C070C4800D83FA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46A0E6E11C070C4800D83FA3 /* Bulid TCP ClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bulid TCP ClientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46A0E6E51C070C4800D83FA3 /* Bulid_TCP_ClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bulid_TCP_ClientUITests.swift; sourceTree = "<group>"; };
+		46A0E6E71C070C4800D83FA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46A0E6BF1C070C4800D83FA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46A0E6D31C070C4800D83FA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46A0E6DE1C070C4800D83FA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46A0E6B91C070C4800D83FA3 = {
+			isa = PBXGroup;
+			children = (
+				46A0E6C41C070C4800D83FA3 /* Bulid TCP Client */,
+				46A0E6D91C070C4800D83FA3 /* Bulid TCP ClientTests */,
+				46A0E6E41C070C4800D83FA3 /* Bulid TCP ClientUITests */,
+				46A0E6C31C070C4800D83FA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46A0E6C31C070C4800D83FA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46A0E6C21C070C4800D83FA3 /* Bulid TCP Client.app */,
+				46A0E6D61C070C4800D83FA3 /* Bulid TCP ClientTests.xctest */,
+				46A0E6E11C070C4800D83FA3 /* Bulid TCP ClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46A0E6C41C070C4800D83FA3 /* Bulid TCP Client */ = {
+			isa = PBXGroup;
+			children = (
+				46A0E6C51C070C4800D83FA3 /* AppDelegate.swift */,
+				46A0E6C71C070C4800D83FA3 /* ViewController.swift */,
+				46A0E6C91C070C4800D83FA3 /* Main.storyboard */,
+				46A0E6CC1C070C4800D83FA3 /* Assets.xcassets */,
+				46A0E6CE1C070C4800D83FA3 /* LaunchScreen.storyboard */,
+				46A0E6D11C070C4800D83FA3 /* Info.plist */,
+			);
+			path = "Bulid TCP Client";
+			sourceTree = "<group>";
+		};
+		46A0E6D91C070C4800D83FA3 /* Bulid TCP ClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				46A0E6DA1C070C4800D83FA3 /* Bulid_TCP_ClientTests.swift */,
+				46A0E6DC1C070C4800D83FA3 /* Info.plist */,
+			);
+			path = "Bulid TCP ClientTests";
+			sourceTree = "<group>";
+		};
+		46A0E6E41C070C4800D83FA3 /* Bulid TCP ClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46A0E6E51C070C4800D83FA3 /* Bulid_TCP_ClientUITests.swift */,
+				46A0E6E71C070C4800D83FA3 /* Info.plist */,
+			);
+			path = "Bulid TCP ClientUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46A0E6C11C070C4800D83FA3 /* Bulid TCP Client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46A0E6EA1C070C4800D83FA3 /* Build configuration list for PBXNativeTarget "Bulid TCP Client" */;
+			buildPhases = (
+				46A0E6BE1C070C4800D83FA3 /* Sources */,
+				46A0E6BF1C070C4800D83FA3 /* Frameworks */,
+				46A0E6C01C070C4800D83FA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bulid TCP Client";
+			productName = "Bulid TCP Client";
+			productReference = 46A0E6C21C070C4800D83FA3 /* Bulid TCP Client.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46A0E6D51C070C4800D83FA3 /* Bulid TCP ClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46A0E6ED1C070C4800D83FA3 /* Build configuration list for PBXNativeTarget "Bulid TCP ClientTests" */;
+			buildPhases = (
+				46A0E6D21C070C4800D83FA3 /* Sources */,
+				46A0E6D31C070C4800D83FA3 /* Frameworks */,
+				46A0E6D41C070C4800D83FA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46A0E6D81C070C4800D83FA3 /* PBXTargetDependency */,
+			);
+			name = "Bulid TCP ClientTests";
+			productName = "Bulid TCP ClientTests";
+			productReference = 46A0E6D61C070C4800D83FA3 /* Bulid TCP ClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46A0E6E01C070C4800D83FA3 /* Bulid TCP ClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46A0E6F01C070C4800D83FA3 /* Build configuration list for PBXNativeTarget "Bulid TCP ClientUITests" */;
+			buildPhases = (
+				46A0E6DD1C070C4800D83FA3 /* Sources */,
+				46A0E6DE1C070C4800D83FA3 /* Frameworks */,
+				46A0E6DF1C070C4800D83FA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46A0E6E31C070C4800D83FA3 /* PBXTargetDependency */,
+			);
+			name = "Bulid TCP ClientUITests";
+			productName = "Bulid TCP ClientUITests";
+			productReference = 46A0E6E11C070C4800D83FA3 /* Bulid TCP ClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46A0E6BA1C070C4800D83FA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "gil osher";
+				TargetAttributes = {
+					46A0E6C11C070C4800D83FA3 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 3ZM8DXSR64;
+					};
+					46A0E6D51C070C4800D83FA3 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 3ZM8DXSR64;
+						TestTargetID = 46A0E6C11C070C4800D83FA3;
+					};
+					46A0E6E01C070C4800D83FA3 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 3ZM8DXSR64;
+						TestTargetID = 46A0E6C11C070C4800D83FA3;
+					};
+				};
+			};
+			buildConfigurationList = 46A0E6BD1C070C4800D83FA3 /* Build configuration list for PBXProject "Bulid TCP Client" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46A0E6B91C070C4800D83FA3;
+			productRefGroup = 46A0E6C31C070C4800D83FA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46A0E6C11C070C4800D83FA3 /* Bulid TCP Client */,
+				46A0E6D51C070C4800D83FA3 /* Bulid TCP ClientTests */,
+				46A0E6E01C070C4800D83FA3 /* Bulid TCP ClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46A0E6C01C070C4800D83FA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A0E6D01C070C4800D83FA3 /* LaunchScreen.storyboard in Resources */,
+				46A0E6CD1C070C4800D83FA3 /* Assets.xcassets in Resources */,
+				46A0E6CB1C070C4800D83FA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46A0E6D41C070C4800D83FA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46A0E6DF1C070C4800D83FA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46A0E6BE1C070C4800D83FA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A0E6C81C070C4800D83FA3 /* ViewController.swift in Sources */,
+				46A0E6C61C070C4800D83FA3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46A0E6D21C070C4800D83FA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A0E6DB1C070C4800D83FA3 /* Bulid_TCP_ClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46A0E6DD1C070C4800D83FA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A0E6E61C070C4800D83FA3 /* Bulid_TCP_ClientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46A0E6D81C070C4800D83FA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46A0E6C11C070C4800D83FA3 /* Bulid TCP Client */;
+			targetProxy = 46A0E6D71C070C4800D83FA3 /* PBXContainerItemProxy */;
+		};
+		46A0E6E31C070C4800D83FA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46A0E6C11C070C4800D83FA3 /* Bulid TCP Client */;
+			targetProxy = 46A0E6E21C070C4800D83FA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46A0E6C91C070C4800D83FA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46A0E6CA1C070C4800D83FA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46A0E6CE1C070C4800D83FA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46A0E6CF1C070C4800D83FA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46A0E6E81C070C4800D83FA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46A0E6E91C070C4800D83FA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46A0E6EB1C070C4800D83FA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bulid TCP Client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Bulid-TCP-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46A0E6EC1C070C4800D83FA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bulid TCP Client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Bulid-TCP-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		46A0E6EE1C070C4800D83FA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Bulid TCP ClientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Bulid-TCP-ClientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bulid TCP Client.app/Bulid TCP Client";
+			};
+			name = Debug;
+		};
+		46A0E6EF1C070C4800D83FA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Bulid TCP ClientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Bulid-TCP-ClientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bulid TCP Client.app/Bulid TCP Client";
+			};
+			name = Release;
+		};
+		46A0E6F11C070C4800D83FA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Bulid TCP ClientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Bulid-TCP-ClientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Bulid TCP Client";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		46A0E6F21C070C4800D83FA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Bulid TCP ClientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "example.Bulid-TCP-ClientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Bulid TCP Client";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46A0E6BD1C070C4800D83FA3 /* Build configuration list for PBXProject "Bulid TCP Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46A0E6E81C070C4800D83FA3 /* Debug */,
+				46A0E6E91C070C4800D83FA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46A0E6EA1C070C4800D83FA3 /* Build configuration list for PBXNativeTarget "Bulid TCP Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46A0E6EB1C070C4800D83FA3 /* Debug */,
+				46A0E6EC1C070C4800D83FA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46A0E6ED1C070C4800D83FA3 /* Build configuration list for PBXNativeTarget "Bulid TCP ClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46A0E6EE1C070C4800D83FA3 /* Debug */,
+				46A0E6EF1C070C4800D83FA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46A0E6F01C070C4800D83FA3 /* Build configuration list for PBXNativeTarget "Bulid TCP ClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46A0E6F11C070C4800D83FA3 /* Debug */,
+				46A0E6F21C070C4800D83FA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46A0E6BA1C070C4800D83FA3 /* Project object */;
+}

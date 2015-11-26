@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		469613301C02F9F80053A0BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4696132F1C02F9F80053A0BC /* AppDelegate.swift */; };
+		469613321C02F9F80053A0BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469613311C02F9F80053A0BC /* ViewController.swift */; };
+		469613351C02F9F80053A0BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 469613331C02F9F80053A0BC /* Main.storyboard */; };
+		469613371C02F9F80053A0BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 469613361C02F9F80053A0BC /* Assets.xcassets */; };
+		4696133A1C02F9F80053A0BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 469613381C02F9F80053A0BC /* LaunchScreen.storyboard */; };
+		469613451C02F9F80053A0BC /* MiniWhatsappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469613441C02F9F80053A0BC /* MiniWhatsappTests.swift */; };
+		469613501C02F9F80053A0BC /* MiniWhatsappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4696134F1C02F9F80053A0BC /* MiniWhatsappUITests.swift */; };
+		4696135E1C031BBB0053A0BC /* MessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4696135D1C031BBB0053A0BC /* MessageController.swift */; };
+		469613601C0338180053A0BC /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4696135F1C0338180053A0BC /* Message.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		469613411C02F9F80053A0BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 469613241C02F9F80053A0BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4696132B1C02F9F80053A0BC;
+			remoteInfo = MiniWhatsapp;
+		};
+		4696134C1C02F9F80053A0BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 469613241C02F9F80053A0BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4696132B1C02F9F80053A0BC;
+			remoteInfo = MiniWhatsapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4696132C1C02F9F80053A0BC /* MiniWhatsapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniWhatsapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4696132F1C02F9F80053A0BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		469613311C02F9F80053A0BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		469613341C02F9F80053A0BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		469613361C02F9F80053A0BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		469613391C02F9F80053A0BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4696133B1C02F9F80053A0BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		469613401C02F9F80053A0BC /* MiniWhatsappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniWhatsappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		469613441C02F9F80053A0BC /* MiniWhatsappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniWhatsappTests.swift; sourceTree = "<group>"; };
+		469613461C02F9F80053A0BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4696134B1C02F9F80053A0BC /* MiniWhatsappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniWhatsappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4696134F1C02F9F80053A0BC /* MiniWhatsappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniWhatsappUITests.swift; sourceTree = "<group>"; };
+		469613511C02F9F80053A0BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4696135D1C031BBB0053A0BC /* MessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageController.swift; sourceTree = "<group>"; };
+		4696135F1C0338180053A0BC /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		469613291C02F9F80053A0BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4696133D1C02F9F80053A0BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		469613481C02F9F80053A0BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		469613231C02F9F80053A0BC = {
+			isa = PBXGroup;
+			children = (
+				4696132E1C02F9F80053A0BC /* MiniWhatsapp */,
+				469613431C02F9F80053A0BC /* MiniWhatsappTests */,
+				4696134E1C02F9F80053A0BC /* MiniWhatsappUITests */,
+				4696132D1C02F9F80053A0BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4696132D1C02F9F80053A0BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4696132C1C02F9F80053A0BC /* MiniWhatsapp.app */,
+				469613401C02F9F80053A0BC /* MiniWhatsappTests.xctest */,
+				4696134B1C02F9F80053A0BC /* MiniWhatsappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4696132E1C02F9F80053A0BC /* MiniWhatsapp */ = {
+			isa = PBXGroup;
+			children = (
+				4696132F1C02F9F80053A0BC /* AppDelegate.swift */,
+				469613311C02F9F80053A0BC /* ViewController.swift */,
+				469613331C02F9F80053A0BC /* Main.storyboard */,
+				469613361C02F9F80053A0BC /* Assets.xcassets */,
+				469613381C02F9F80053A0BC /* LaunchScreen.storyboard */,
+				4696133B1C02F9F80053A0BC /* Info.plist */,
+				4696135D1C031BBB0053A0BC /* MessageController.swift */,
+				4696135F1C0338180053A0BC /* Message.swift */,
+			);
+			path = MiniWhatsapp;
+			sourceTree = "<group>";
+		};
+		469613431C02F9F80053A0BC /* MiniWhatsappTests */ = {
+			isa = PBXGroup;
+			children = (
+				469613441C02F9F80053A0BC /* MiniWhatsappTests.swift */,
+				469613461C02F9F80053A0BC /* Info.plist */,
+			);
+			path = MiniWhatsappTests;
+			sourceTree = "<group>";
+		};
+		4696134E1C02F9F80053A0BC /* MiniWhatsappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4696134F1C02F9F80053A0BC /* MiniWhatsappUITests.swift */,
+				469613511C02F9F80053A0BC /* Info.plist */,
+			);
+			path = MiniWhatsappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4696132B1C02F9F80053A0BC /* MiniWhatsapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 469613541C02F9F80053A0BC /* Build configuration list for PBXNativeTarget "MiniWhatsapp" */;
+			buildPhases = (
+				469613281C02F9F80053A0BC /* Sources */,
+				469613291C02F9F80053A0BC /* Frameworks */,
+				4696132A1C02F9F80053A0BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniWhatsapp;
+			productName = MiniWhatsapp;
+			productReference = 4696132C1C02F9F80053A0BC /* MiniWhatsapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4696133F1C02F9F80053A0BC /* MiniWhatsappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 469613571C02F9F80053A0BC /* Build configuration list for PBXNativeTarget "MiniWhatsappTests" */;
+			buildPhases = (
+				4696133C1C02F9F80053A0BC /* Sources */,
+				4696133D1C02F9F80053A0BC /* Frameworks */,
+				4696133E1C02F9F80053A0BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				469613421C02F9F80053A0BC /* PBXTargetDependency */,
+			);
+			name = MiniWhatsappTests;
+			productName = MiniWhatsappTests;
+			productReference = 469613401C02F9F80053A0BC /* MiniWhatsappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4696134A1C02F9F80053A0BC /* MiniWhatsappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4696135A1C02F9F80053A0BC /* Build configuration list for PBXNativeTarget "MiniWhatsappUITests" */;
+			buildPhases = (
+				469613471C02F9F80053A0BC /* Sources */,
+				469613481C02F9F80053A0BC /* Frameworks */,
+				469613491C02F9F80053A0BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4696134D1C02F9F80053A0BC /* PBXTargetDependency */,
+			);
+			name = MiniWhatsappUITests;
+			productName = MiniWhatsappUITests;
+			productReference = 4696134B1C02F9F80053A0BC /* MiniWhatsappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		469613241C02F9F80053A0BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "gil osher";
+				TargetAttributes = {
+					4696132B1C02F9F80053A0BC = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 3ZM8DXSR64;
+					};
+					4696133F1C02F9F80053A0BC = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 3ZM8DXSR64;
+						TestTargetID = 4696132B1C02F9F80053A0BC;
+					};
+					4696134A1C02F9F80053A0BC = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 3ZM8DXSR64;
+						TestTargetID = 4696132B1C02F9F80053A0BC;
+					};
+				};
+			};
+			buildConfigurationList = 469613271C02F9F80053A0BC /* Build configuration list for PBXProject "MiniWhatsapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 469613231C02F9F80053A0BC;
+			productRefGroup = 4696132D1C02F9F80053A0BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4696132B1C02F9F80053A0BC /* MiniWhatsapp */,
+				4696133F1C02F9F80053A0BC /* MiniWhatsappTests */,
+				4696134A1C02F9F80053A0BC /* MiniWhatsappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4696132A1C02F9F80053A0BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4696133A1C02F9F80053A0BC /* LaunchScreen.storyboard in Resources */,
+				469613371C02F9F80053A0BC /* Assets.xcassets in Resources */,
+				469613351C02F9F80053A0BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4696133E1C02F9F80053A0BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		469613491C02F9F80053A0BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		469613281C02F9F80053A0BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4696135E1C031BBB0053A0BC /* MessageController.swift in Sources */,
+				469613601C0338180053A0BC /* Message.swift in Sources */,
+				469613321C02F9F80053A0BC /* ViewController.swift in Sources */,
+				469613301C02F9F80053A0BC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4696133C1C02F9F80053A0BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				469613451C02F9F80053A0BC /* MiniWhatsappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		469613471C02F9F80053A0BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				469613501C02F9F80053A0BC /* MiniWhatsappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		469613421C02F9F80053A0BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4696132B1C02F9F80053A0BC /* MiniWhatsapp */;
+			targetProxy = 469613411C02F9F80053A0BC /* PBXContainerItemProxy */;
+		};
+		4696134D1C02F9F80053A0BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4696132B1C02F9F80053A0BC /* MiniWhatsapp */;
+			targetProxy = 4696134C1C02F9F80053A0BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		469613331C02F9F80053A0BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				469613341C02F9F80053A0BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		469613381C02F9F80053A0BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				469613391C02F9F80053A0BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		469613521C02F9F80053A0BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		469613531C02F9F80053A0BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		469613551C02F9F80053A0BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiniWhatsapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = example.MiniWhatsapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		469613561C02F9F80053A0BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiniWhatsapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = example.MiniWhatsapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		469613581C02F9F80053A0BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MiniWhatsappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = example.MiniWhatsappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniWhatsapp.app/MiniWhatsapp";
+			};
+			name = Debug;
+		};
+		469613591C02F9F80053A0BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MiniWhatsappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = example.MiniWhatsappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniWhatsapp.app/MiniWhatsapp";
+			};
+			name = Release;
+		};
+		4696135B1C02F9F80053A0BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MiniWhatsappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = example.MiniWhatsappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MiniWhatsapp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4696135C1C02F9F80053A0BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MiniWhatsappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = example.MiniWhatsappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MiniWhatsapp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		469613271C02F9F80053A0BC /* Build configuration list for PBXProject "MiniWhatsapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				469613521C02F9F80053A0BC /* Debug */,
+				469613531C02F9F80053A0BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		469613541C02F9F80053A0BC /* Build configuration list for PBXNativeTarget "MiniWhatsapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				469613551C02F9F80053A0BC /* Debug */,
+				469613561C02F9F80053A0BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		469613571C02F9F80053A0BC /* Build configuration list for PBXNativeTarget "MiniWhatsappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				469613581C02F9F80053A0BC /* Debug */,
+				469613591C02F9F80053A0BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4696135A1C02F9F80053A0BC /* Build configuration list for PBXNativeTarget "MiniWhatsappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4696135B1C02F9F80053A0BC /* Debug */,
+				4696135C1C02F9F80053A0BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 469613241C02F9F80053A0BC /* Project object */;
+}
