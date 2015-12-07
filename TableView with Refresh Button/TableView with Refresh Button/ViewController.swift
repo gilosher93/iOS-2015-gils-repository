@@ -26,7 +26,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             theTableView.delegate = self;
             /* Create the refresh control */
             refreshControl = UIRefreshControl();
-            refreshControl?.addTarget(self, action: "handleRefresh:", forControlEvents: UIControlEvents.ValueChanged);
+            refreshControl!.addTarget(self, action: "handleRefresh:", forControlEvents: UIControlEvents.ValueChanged);
             theTableView.addSubview(refreshControl!);
             view.addSubview(theTableView);
         }
