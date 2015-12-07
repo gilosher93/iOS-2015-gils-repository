@@ -107,7 +107,7 @@ class ViewController: UIViewController {
             userName.placeholder = "הכנס שם משתמש";
             userName.textAlignment = NSTextAlignment.Right;
         }
-        controller!.addTextFieldWithConfigurationHandler { (password:UITextField) -> Void in
+        controller!.addTextFieldWithConfigurationHandler { (password: UITextField) -> Void in
             password.placeholder = "הכנס סיסמא";
             password.textAlignment = NSTextAlignment.Right;
             

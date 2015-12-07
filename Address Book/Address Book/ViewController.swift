@@ -16,7 +16,6 @@ class ViewController: UIViewController, CNContactPickerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         contactPicker = CNContactPickerViewController();
         contactPicker.delegate = self;
         
@@ -27,8 +26,6 @@ class ViewController: UIViewController, CNContactPickerDelegate {
         btnShowContacts.setTitle("show contacts", forState: UIControlState.Normal);
         btnShowContacts.addTarget(self, action: "showContacts", forControlEvents: UIControlEvents.TouchUpInside);
         view.addSubview(btnShowContacts);
-        
-        
     }
     func showContacts(){
         presentViewController(contactPicker, animated: true, completion: nil);

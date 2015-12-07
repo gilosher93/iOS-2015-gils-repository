@@ -34,7 +34,7 @@ class ViewController: UIViewController {
     var screenEdgeRecognizer: UIScreenEdgePanGestureRecognizer!;
     
     
-    var menuView: UIView;
+    var menuView: UIView!;
     override func viewDidLoad() {
         super.viewDidLoad()
         /*
@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         swiperRecognizer.numberOfTouchesRequired = 1;
         view.addGestureRecognizer(swiperRecognizer);
         */
-        menuView = UIView(frame: CGRect(x: -200, y: 0, width: 220, height: view.frame.height))
+        menuView = UIView(frame: CGRect(x: 200, y: 0, width: 220, height: view.frame.height))
             
         label = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 30));
         label.backgroundColor = UIColor.brownColor();
@@ -56,11 +56,11 @@ class ViewController: UIViewController {
         label.userInteractionEnabled = true;
         view.addSubview(label);
         
-        /*
+        
         //ROTATION
         rotationRecognizer = UIRotationGestureRecognizer(target: self, action: "handleRotations:");
         view.addGestureRecognizer(rotationRecognizer);
-        */
+        
 
         /*
         //PAN
