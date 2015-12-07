@@ -14,6 +14,8 @@
 		462EE2F51C107D9500553955 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462EE2F31C107D9500553955 /* LaunchScreen.storyboard */; };
 		462EE3001C107D9500553955 /* Files_and_FoldersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462EE2FF1C107D9500553955 /* Files_and_FoldersTests.swift */; };
 		462EE30B1C107D9500553955 /* Files_and_FoldersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462EE30A1C107D9500553955 /* Files_and_FoldersUITests.swift */; };
+		46D59A581C1582E9008B79B3 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D59A571C1582E9008B79B3 /* Person.swift */; };
+		46D59A5A1C158952008B79B3 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D59A591C158952008B79B3 /* Dog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		462EE3061C107D9500553955 /* Files and FoldersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Files and FoldersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		462EE30A1C107D9500553955 /* Files_and_FoldersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Files_and_FoldersUITests.swift; sourceTree = "<group>"; };
 		462EE30C1C107D9500553955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D59A571C1582E9008B79B3 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		46D59A591C158952008B79B3 /* Dog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +103,12 @@
 			children = (
 				462EE2EA1C107D9500553955 /* AppDelegate.swift */,
 				462EE2EC1C107D9500553955 /* ViewController.swift */,
+				46D59A571C1582E9008B79B3 /* Person.swift */,
 				462EE2EE1C107D9500553955 /* Main.storyboard */,
 				462EE2F11C107D9500553955 /* Assets.xcassets */,
 				462EE2F31C107D9500553955 /* LaunchScreen.storyboard */,
 				462EE2F61C107D9500553955 /* Info.plist */,
+				46D59A591C158952008B79B3 /* Dog.swift */,
 			);
 			path = "Files and Folders";
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46D59A581C1582E9008B79B3 /* Person.swift in Sources */,
 				462EE2ED1C107D9500553955 /* ViewController.swift in Sources */,
+				46D59A5A1C158952008B79B3 /* Dog.swift in Sources */,
 				462EE2EB1C107D9500553955 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,6 +493,7 @@
 				462EE3111C107D9500553955 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		462EE3121C107D9500553955 /* Build configuration list for PBXNativeTarget "Files and FoldersTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +502,7 @@
 				462EE3141C107D9500553955 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		462EE3151C107D9500553955 /* Build configuration list for PBXNativeTarget "Files and FoldersUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +511,7 @@
 				462EE3171C107D9500553955 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

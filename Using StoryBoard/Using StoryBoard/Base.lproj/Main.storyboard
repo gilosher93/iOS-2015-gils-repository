@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Using_StoryBoard" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title Of My App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="olv-S9-AGu">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="type something" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lxn-i4-yGJ">
+                                <rect key="frame" x="-25" y="-30" width="97" height="30"/>
+                                <animations/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GaO-Dl-ffS">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Click Me!">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="handleClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ebQ-Rl-Tvl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="olv-S9-AGu" secondAttribute="trailing" constant="70" id="8Bb-vO-Sdo"/>
+                            <constraint firstItem="olv-S9-AGu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="70" id="9Uc-KD-6Fa"/>
+                            <constraint firstItem="GaO-Dl-ffS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="70" id="CY2-qe-nS0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Lxn-i4-yGJ" secondAttribute="trailing" constant="70" id="Hcs-ik-H5a"/>
+                            <constraint firstItem="Lxn-i4-yGJ" firstAttribute="top" secondItem="olv-S9-AGu" secondAttribute="bottom" constant="30" id="Vbb-1k-Tez"/>
+                            <constraint firstItem="olv-S9-AGu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="46" id="Ydx-F1-AZ8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="GaO-Dl-ffS" secondAttribute="trailing" constant="70" id="cd3-JD-qLP"/>
+                            <constraint firstItem="GaO-Dl-ffS" firstAttribute="top" secondItem="Lxn-i4-yGJ" secondAttribute="bottom" constant="30" id="gUk-M1-wLv"/>
+                            <constraint firstItem="Lxn-i4-yGJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="70" id="mNT-UR-IQN"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="olv-S9-AGu"/>
+                                <exclude reference="Lxn-i4-yGJ"/>
+                                <exclude reference="GaO-Dl-ffS"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="Hcs-ik-H5a"/>
+                                <exclude reference="Vbb-1k-Tez"/>
+                                <exclude reference="mNT-UR-IQN"/>
+                                <exclude reference="CY2-qe-nS0"/>
+                                <exclude reference="cd3-JD-qLP"/>
+                                <exclude reference="gUk-M1-wLv"/>
+                                <exclude reference="8Bb-vO-Sdo"/>
+                                <exclude reference="9Uc-KD-6Fa"/>
+                                <exclude reference="Ydx-F1-AZ8"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="olv-S9-AGu"/>
+                                <include reference="Lxn-i4-yGJ"/>
+                                <include reference="GaO-Dl-ffS"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="Hcs-ik-H5a"/>
+                                <include reference="Vbb-1k-Tez"/>
+                                <include reference="mNT-UR-IQN"/>
+                                <include reference="CY2-qe-nS0"/>
+                                <include reference="cd3-JD-qLP"/>
+                                <include reference="gUk-M1-wLv"/>
+                                <include reference="8Bb-vO-Sdo"/>
+                                <include reference="9Uc-KD-6Fa"/>
+                                <include reference="Ydx-F1-AZ8"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="lblTitle" destination="olv-S9-AGu" id="yUM-gT-YGt"/>
+                        <outlet property="txtInput" destination="Lxn-i4-yGJ" id="wpD-nf-dhv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="417" y="235"/>
+        </scene>
+    </scenes>
+</document>
