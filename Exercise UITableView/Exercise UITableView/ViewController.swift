@@ -106,6 +106,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func newLabelWithTitle(title: String) -> UILabel{
         let label = UILabel();
         label.text = title;
+        label.textAlignment = .Center;
         label.backgroundColor = UIColor.clearColor();
         label.sizeToFit();
         return label;

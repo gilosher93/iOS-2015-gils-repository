@@ -19,12 +19,15 @@ class ViewController: UIViewController {
     
     /* Pan - like a Drag */
     var panGestureRecognizer: UIPanGestureRecognizer!;
+    var staticLocation: CGPoint!;
     
     /* Long Press */
     var longPressGestureRecognizer: UILongPressGestureRecognizer!;
     
     /* Tap */
     var tapGestureRecognizer: UITapGestureRecognizer!;
+    var firstTime = false;
+    
     
     /* Pinch */
     var pinchGestureRecognizer: UIPinchGestureRecognizer!;
@@ -56,19 +59,17 @@ class ViewController: UIViewController {
         label.userInteractionEnabled = true;
         view.addSubview(label);
         
-        
         //ROTATION
         rotationRecognizer = UIRotationGestureRecognizer(target: self, action: "handleRotations:");
         view.addGestureRecognizer(rotationRecognizer);
-        
 
-        /*
+        
         //PAN
         panGestureRecognizer = UIPanGestureRecognizer(target: self, action: "handlePanGesture:")
         panGestureRecognizer.minimumNumberOfTouches = 1;
         panGestureRecognizer.maximumNumberOfTouches = 1;
         label.addGestureRecognizer(panGestureRecognizer);
-        */
+
         
         /*
         //LONG PRESS
@@ -119,10 +120,20 @@ class ViewController: UIViewController {
     }
     
     func handlePanGesture(sender: UIPanGestureRecognizer){
+        if sender.state == .Began{
+            staticLocation = sender.view!.center;
+        }
+        
         if sender.state != .Ended && sender.state != .Failed{
             let location = sender.locationInView(sender.view!.superview);
+            sender.view!.alpha = 0.5
             sender.view!.center = location;
         }
+        if sender.state == .Ended{
+            sender.view!.alpha = 1;
+            sender.view!.center = staticLocation;
+        }
+
     }
     
     func handleLongPressGesture(sender: UILongPressGestureRecognizer){

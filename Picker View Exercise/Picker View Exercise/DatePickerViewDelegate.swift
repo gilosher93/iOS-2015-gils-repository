@@ -6,7 +6,7 @@
 //  Copyright © 2015 gil osher. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 class DatePickerViewDelegate: NSObject, UIPickerViewDelegate, UIPickerViewDataSource {
     
@@ -28,7 +28,6 @@ class DatePickerViewDelegate: NSObject, UIPickerViewDelegate, UIPickerViewDataSo
     }
     
     func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
-        
         return 2;
     }
     

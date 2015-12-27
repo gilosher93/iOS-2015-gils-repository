@@ -16,6 +16,8 @@ let date = NSCalendar.currentCalendar().dateWithEra(GregorianEra.AD.rawValue, ye
 if let theDate = date{
     print("date = \(date)");
     let components = NSCalendar.currentCalendar().componentsInTimeZone(NSTimeZone(), fromDate: theDate);
+    print(components.minute)
+    print(components.hour)
     print(components);
 }
 
